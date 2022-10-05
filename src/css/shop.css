@@ -1,0 +1,382 @@
+/* reponsive shop */
+@media screen and ( max-width:375px) {
+    .banner h3 {
+        
+        top: 30%;
+        left: 3%;
+        
+        font-size: 18px;
+    }
+    .banner .content-banner-1 {
+        font-size: 10px;
+        top: 45%;
+        left: 3%;
+    }
+    
+    .banner .content-banner-2 {
+        font-size: 10px;
+        top: 51%;
+        left: 3%;
+    }
+}
+
+@media screen and ( min-width:376px) and (max-width:430px) {
+    .banner h3 {
+        
+        top: 35%;
+        left: 3%;
+        margin: 0;
+        font-size: 18px;
+    }
+    .banner .content-banner-1 {
+       font-size: 10px;
+       top: 45%;
+       left: 3%;
+    }
+    
+    .banner .content-banner-2 {
+        font-size: 10px;
+        top: 51%;
+        left: 3%;
+        margin: 0;
+    }
+    .path {
+        
+        
+        bottom: 10%;
+        left: 3%;
+    }
+    
+    .path .header-path {
+        font-size: 24px;
+        
+    }
+    .sub-path {
+        
+        font-size: 16px;
+        
+    }
+}
+
+@media screen and ( min-width:431px) and (max-width:576px) {
+    
+    .banner h3 {
+        
+        top: 30%;
+        left: 3%;
+        
+        font-size: 22px;
+    }
+    .banner  .content-banner-1 {
+        font-size: 12px;
+        top: 40%;
+        left: 3%;
+    }
+    
+    .banner .content-banner-2 {
+        font-size: 12px;
+        top: 46%;
+        left: 3%;
+    }
+    .path {
+        
+        
+        bottom: 10%;
+        left: 3%;
+    }
+    
+    .path .header-path {
+        font-size: 32px;
+        
+    }
+    .sub-path {
+        
+        font-size: 22px;
+        
+    }
+    .fitter {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .content-fitter {
+        font-size: 11px;
+        
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:843px) {
+    .banner h3 {
+        
+        top: 30%;
+        left: 3%;
+        
+        font-size: 32px;
+    }
+    .banner .content-banner-1 {
+        font-size: 14px;
+        top: 40%;
+        left: 3%;
+    }
+    
+    .banner .content-banner-2 {
+        font-size: 14px;
+        top: 46%;
+        left: 3%;
+    }
+    .path {
+        
+        
+        bottom: 10%;
+        left: 3%;
+    }
+    
+    .path .header-path {
+        font-size: 42px;
+        
+    }
+    .sub-path {
+        
+        font-size: 28px;
+        
+    }
+    .title-fitter {
+        font-size: 16px;
+        
+    }
+    .content-fitter {
+        font-size: 14px;
+        
+    }
+    .push-product {
+        display: block;
+    }
+    .fitter {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .content-fitter {
+        font-size: 12px;
+        
+    }
+    
+}
+
+@media screen and ( min-width:835px) and ( max-width:1080px) {
+    .banner p {
+        font-size: 18px;
+    }
+    .banner h3 {
+        
+        top: 30%;
+        left: 3%;
+        
+        font-size: 44px;
+    }
+    .banner .content-banner-1 {
+        font-size: 18px;
+        top: 40%;
+        left: 3%;
+    }
+    
+    .banner .content-banner-2 {
+        font-size: 18px;
+        top: 45%;
+        left: 3%;
+    }
+    .path {
+        
+        
+        bottom: 10%;
+        left: 3%;
+    }
+    
+    .path .header-path {
+        font-size: 66px;
+        
+    }
+    .sub-path {
+        
+        font-size: 40px;
+        
+    }
+    .title-fitter {
+        font-size: 16px;
+        
+    }
+    .content-fitter {
+        font-size: 14px;
+        
+    }
+    .push-product {
+        display: none;
+        display: flex;
+    }
+    .fitter {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    
+}
+
+@media screen and ( min-width:1081px) {
+    .banner p {
+        font-size: 22px;
+    }
+
+    .banner h3 {
+        
+        top: 30%;
+        left: 3%;
+        
+        font-size: 44px;
+    }
+    .banner .content-banner-1 {
+        
+        top: 40%;
+        left: 3%;
+    }
+    
+    .banner .content-banner-2 {
+        
+        top: 45%;
+        left: 3%;
+    }
+    .path {
+        
+        
+        bottom: 10%;
+        left: 3%;
+    }
+    
+    .path .header-path {
+        font-size: 96px;
+        
+    }
+    .sub-path {
+        
+        font-size: 61px;
+        
+    }
+    .title-fitter {
+        font-size: 16px;
+        
+    }
+    .content-fitter {
+        font-size: 16px;
+        
+    }
+    .push-product {
+        display: none;
+        display: flex;
+    }
+    .fitter {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    
+}
+
+
+
+
+
+.banner {
+    position: relative;
+}
+
+
+
+
+.banner h3 {
+    position: absolute;
+    
+    font-family: 'Parisienne', cursive;
+    
+}
+.banner p {
+    
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.banner .content-banner-1 {
+    position: absolute;
+    
+}
+
+.banner .content-banner-2 {
+    position: absolute;
+    
+}
+.path {
+    opacity: 0.6;
+    color: rgb(97, 96, 96);
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+}
+
+.path .header-path {
+    
+    font-weight: 600;
+}
+.sub-path {
+    letter-spacing: 0.5rem;
+    
+    font-weight: 600;
+}
+
+/* search product */
+.btn-search {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(36, 212, 212);
+    background-color: #f3f3f3;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    
+}
+.find-product {
+    text-align: center;
+    
+}
+.search-product {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title-fitter {
+    
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.content-fitter {
+    
+    font-weight: 300;
+}
+.list-fitter {
+    margin-bottom: 10px;
+    align-items: center;
+}
+.fitter {
+    /* padding-top: 50px;
+    padding-bottom: 40px; */
+    border-bottom: 1px solid #444;
+}
+.border-none {
+    border: none;
+}
+.pl-20 {
+    padding-right: 20px;
+}
+
+.list-product img {
+    width: 100%;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.list-product {
+    margin-bottom: 20px;
+}
