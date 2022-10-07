@@ -1,0 +1,312 @@
+
+
+/* reponsive */
+@media screen and (max-width:375px) {
+    .sign .container {
+        margin-top: 50px;
+    }
+    .path-sign {
+        margin-top: 100px;
+        font-size: 32px;
+        color: #525252;
+    }
+    .sign img {
+        margin-bottom: 30px;
+        width: 60%;
+        
+    }
+    
+    .modal-signin {
+        width: 100%;
+        margin: auto;
+        padding: 20px 40px;
+    }
+    
+    .sign-phone {
+        padding: 8px 10px 8px 20px;
+        gap: 10px;
+        
+       
+    }
+   
+    
+    .sign-google {
+        padding: 8px 10px 8px 20px;
+        gap: 10px;
+       
+        
+    }
+    
+    .sign-facebook {
+        padding: 8px 10px 8px 20px;
+        gap: 10px;
+        
+        
+    }
+    
+}
+
+@media screen and ( min-width:376px) and (max-width:430px) {
+    .sign .container {
+        margin-top: 30px;
+    }
+    .path-sign {
+        margin-top: 100px;
+        font-size: 22px;
+        color: #525252;
+    }
+    .sign img {
+        margin-bottom: 30px;
+        width: 60%;
+        
+    }
+    
+    .modal-signin {
+        width: 100%;
+        margin: auto;
+        padding: 40px 80px;
+    }
+    
+    .sign-phone {
+        padding: 8px 10px 8px 20px;
+        gap: 10px;
+       
+    }
+    .sign a {
+        font-size: 12px;
+    }
+    
+    .sign-google {
+        padding: 8px 10px 8px 20px;
+        gap: 10px;
+       
+        
+    }
+    
+    .sign-facebook {
+        padding: 8px 10px 8px 20px;
+        gap: 10px;
+        
+        
+    }
+    
+    
+}
+
+@media screen and (min-width:431px) and (max-width:576px) {
+    .sign .container {
+        margin-top: 50px;
+    }
+    .path-sign {
+        margin-top: 100px;
+        font-size: 32px;
+        color: #525252;
+    }
+    .sign img {
+        margin-bottom: 30px;
+        width: 60%;
+        
+    }
+    
+    .modal-signin {
+        width: 100%;
+        margin: auto;
+        padding: 40px 80px;
+    }
+    
+    .sign-phone {
+        padding: 8px 0px 8px 20px;
+        gap: 10px;
+       
+    }
+    
+   
+    .sign-google {
+        padding: 8px 10px 8px 20px;
+        gap: 10px;
+       
+        
+    }
+    
+    .sign-facebook {
+        padding: 8px 10px 8px 20px;
+        gap: 10px;
+        
+        
+    }
+    
+}
+
+@media screen and (min-width:577px) and (max-width:834px) {
+    .sign .container {
+        margin-top: 50px;
+    }
+    .path-sign {
+        margin-top: 130px;
+        font-size: 32px;
+        color: #525252;
+    }
+    .sign img {
+        margin-bottom: 30px;
+        width: 60%;
+        
+    }
+    
+    .modal-signin {
+        width: 100%;
+        /* margin: auto; */
+        padding: 40px 80px;
+        margin: 0;
+    }
+    
+    .sign-phone {
+        width: 320px;
+        width: 100%;
+        padding: 8px 0px 8px 50px;
+        gap: 15px;
+        
+    }
+    
+    .sign-google {
+        padding: 8px 0px 8px 50px;
+        gap: 15px;
+       
+        
+    }
+    
+    .sign-facebook {
+        
+        
+        padding: 8px 0px 8px 50px;
+        gap: 15px;
+        
+        
+    }
+}
+
+@media screen and (min-width:835px) {
+    .sign .container {
+        margin-top: 50px;
+    }
+    .path-sign {
+        margin-top: 150px;
+        font-size: 32px;
+        color: #525252;
+    }
+    .sign img {
+        margin-bottom: 30px;
+        width: 50%;
+        
+    }
+    
+    .modal-signin {
+        width: 620px;
+        margin: auto;
+        padding: 40px 80px;
+    }
+    
+    .sign-phone {
+        width: 320px;
+        width: 100%;
+        padding: 8px 100px;
+        gap: 15px;
+        
+    }
+    
+    .sign-google {
+        padding: 8px 100px;
+        gap: 15px;
+       
+        
+    }
+    
+    .sign-facebook {
+        
+        
+        padding: 8px 100px;
+        gap: 15px;
+        
+        
+    }
+}
+
+
+
+.sign {
+    text-align: center;
+}
+
+.icon a {
+    color: #333;
+}
+.logo img {
+    
+}
+
+
+.sign img {
+    margin-bottom: 30px;
+    
+    
+}
+
+.modal-signin {
+    
+    margin: auto;
+    
+    border: 1px solid #dce0e3;
+    
+}
+
+.sign-phone {
+    width: 320px;
+    border: 1px solid #DCE0E3;
+    border-radius: 15px;
+    width: 100%;
+    
+    
+    margin-bottom: 10px;
+}
+
+.sign-google {
+    border: 1px solid  #DCE0E3;
+    border-radius: 15px;
+    
+    
+    margin-bottom: 10px;
+    
+}
+
+.sign-facebook {
+    border: 1px solid  #DCE0E3;
+    border-radius: 15px;
+    
+    
+    margin-bottom: 30px;
+    
+}
+.sign a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 400;
+}
+.sign .sign-google i {
+    color: red;
+
+}
+
+.sign .sign-facebook i {
+    color: blue;
+}
+
+.signup span {
+    color: red;
+}
+.path-sign {
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+.footer {
+    margin-top: 30px;
+}

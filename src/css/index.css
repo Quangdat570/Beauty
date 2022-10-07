@@ -3,7 +3,11 @@
 
 /* ============================================================================================= */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:374px) {
+    .logo img {
+        width: 150%;
+        
+    }
     .group li a {
         display: none;
     }
@@ -78,28 +82,36 @@
     .selling-product h3 {
         font-size: 18px;
     }
-    .footer .address p {
-        font-size: 12px;
-    }
-    .footer  p {
-        font-size: 10px;
-        overflow: hidden;
-        width: 100%;
-        
-    }
-    .footer .store {
-        font-size: 12px;
-    }
-    .footer .col-12 {
-        gap: 3px;
-    }
-
+    
     
 }
 
 @media screen and (min-width:375px) and (max-width:430px) {
+    .logo img {
+        width: 150%;
+        padding-left: 20px;
+    }
     .group li a {
         display: none;
+    }
+    .content-banner {
+        top: 30px;
+        right: 0;
+    }
+    .content-banner-2 {
+        top: 30px;
+        left: 10%;
+    }
+
+    .title-banner {
+        font-size: 32px;
+    }
+    .sub-title {
+        font-size: 18px;
+    }
+    .content {
+        width: 200px;
+        font-size: 8px;
     }
     .slogan h3 {
         margin: 0;
@@ -188,27 +200,61 @@
         display: flex;
         gap: 5px;
     }
-    .footer  p {
-        font-size: 10px;
-        overflow: hidden;
-        width: 100%;
-        font-weight: 600;
-    }
-    .footer .store {
+    .store {
         font-size: 14px;
     }
-    .footer .col-12 {
-        gap: 3px;
+    .address {
+        font-size: 12px;
     }
+    .p {
+        font-size: 12px;
+    }
+   
 
    
 }
 
 @media screen and (min-width:431px) and (max-width:576px) {
+    .header-fixed {
+        padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .logo img {
+        width: 100%;
+        padding-left: 20px;
+    }
     .group li a {
         display: block;
         font-size: 11px;
         font-weight: 400;
+    }
+    .header .icon a {
+        font-size: 15px;
+        
+    }
+    .header .icon {
+        gap: 5px;
+        padding-right: 10px;
+    }
+
+    .content-banner {
+        top: 40px;
+        right: 20px;
+    }
+    .content-banner-2 {
+        top: 25%;
+        left: 10%;
+    }
+
+    .title-banner {
+        font-size: 32px;
+    }
+    .sub-title {
+        font-size: 18px;
+    }
+    .content {
+        width: 230px;
+        font-size: 10px;
     }
 
     .slogan h3 {
@@ -303,20 +349,16 @@
     .selling-product .list {
         display: flex;
         gap: 5px;
+    }.store {
+        font-size: 18px;
     }
-    .footer  p {
-        font-size: 10px;
-        overflow: hidden;
-        width: 100%;
-        font-weight: 600;
+    .address {
+        font-size: 14px;
     }
-    .footer .store {
-        font-size: 12px;
+    .p {
+        font-size: 14px;
     }
-    .footer .col-12 {
-        gap: 3px;
-    }
-
+    
     
 
 }
@@ -328,11 +370,37 @@
 }
 
 @media screen and (min-width:577px) and (max-width:834px) {
+    .header-fixed {
+        padding-top: 15px;
+     padding-bottom: 15px;
+    }
     .group li a {
         display: block;
         font-size: 13px;
         font-weight: 400;
     }
+
+    .content-banner {
+        top: 25%;
+        right: 10%;
+    }
+    .content-banner-2 {
+        top: 30%;
+        left: 10%;
+    }
+
+
+    .title-banner {
+        font-size: 40px;
+    }
+    .sub-title {
+        font-size: 22px;
+    }
+    .content {
+        width: 230px;
+        font-size: 12px;
+    }
+
     .slogan h3 {
         margin: 0;
         font-size: 20px;
@@ -425,15 +493,8 @@
         gap: 8px;
         
     }
-    .footer .icon-media {
-        font-size: 20px;
-    }
-    .footer p {
-        font-size: 14px;
-    }
-    .p-20 {
-        padding-left: 10px;
-    }
+   
+   
    
     
     
@@ -441,12 +502,37 @@
 
 @media screen and (min-width:835px)
 {
+    .header-fixed {
+        padding-top: 20px;
+    padding-bottom: 20px;
+    }
     .group li a {
         display: block;
         font-size: 16px;
         font-weight: 400;
         justify-content: space-evenly;
     }   
+
+    .content-banner {
+        top: 25%;
+        right: 7%;
+    }
+
+    .content-banner-2 {
+        top: 30%;
+        left: 10%;
+    }
+
+    .title-banner {
+        font-size: 60px;
+    }
+    .sub-title {
+        font-size: 30px;
+    }
+    .content {
+        width: 400px;
+        font-size: 16px;
+    }
     .slogan h3 {
         margin: 0;
         font-size: 30px;
@@ -540,28 +626,34 @@
         gap: 20px;
         
     }
-    .footer .icon-media {
-        font-size: 25px;
-    }
-    .p-20 {
-        padding-left: 30px;
-    }
-    
+   
    
 }
 @media screen and (min-width:1080px) {
+    .header-fixed {
+        padding-top: 20px;
+    padding-bottom: 20px;
+    }
     .discount .title-discount {
         position: absolute;
         top: 11%;
         left: 38%;
         font-size: 34px;
     }
-    .sub-title-1 {
-        position: absolute;
-        top: 30%;
-        left: 32%;
-       
-    
+    .content-banner {
+        top: 25%;
+        right: 10%;
+    }
+
+    .title-banner {
+        font-size: 90px;
+    }
+    .sub-title {
+        font-size: 70px;
+    }
+    .content {
+        width: 500px;
+        font-size: 16px;
     }
     
     .sub-title-2 {
@@ -597,9 +689,7 @@
         gap: 30px;
         width: 100%;
     }
-    .footer .icon-media {
-        font-size: 25px;
-    }
+   
     
 }
 
@@ -642,8 +732,7 @@
     right: 0;
     top: 0;
     justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    
     
 }
 .icon {
@@ -652,6 +741,12 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    padding-right: 40px;
+}
+.icon a {
+    color: #333;
+    font-size: 20px;
+    
 }
 .group {
     justify-content: space-evenly;
@@ -671,13 +766,33 @@
 
 }
 .logo img {
-    width: 90%;
+    
     padding-left: 20px;
 }
 
 .banner-img {
     max-width: 100%;
     width: 100%;
+}
+/* banner */
+.content-banner-2 {
+    position: absolute;
+}
+.content-banner {
+    
+    position: absolute;
+}
+.title-banner {
+    font-family: 'Mr De Haviland', cursive;
+    
+}
+.sub-title {
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.content {
+    font-family: 'Josefin Sans', sans-serif;
+    
 }
 
 /* slogan  */
@@ -896,6 +1011,14 @@
     text-align: center;
     margin: 30px 0 0 0;
 }
+.selling-product a {
+    text-decoration: none;
+    color: #333;
+}
+
+.selling-product a:hover {
+    color: #333;
+}
 /* review */
 .review-blog {
     padding-top: 30px;
@@ -911,6 +1034,20 @@
 .title-review {
     font-family: 'Josefin Sans', sans-serif;
     padding-left: 10px;
+}
+.title-review a {
+    text-decoration: none;
+    color: #333;
+}
+.title-review a:hover {
+    color: #333;
+}
+.more a {
+    text-decoration: none;
+    color: #333;
+}
+.more a:hover {
+    color: #333;
 }
 .date {
     margin-top: 10px;
@@ -939,12 +1076,19 @@
 .footer {
     padding: 20px 0;
 background-color: #333;
+
+}
+
+.footer .col-12  {
+    padding-left: 20px;
 }
 .store {
-    font-size: 18px;
+    text-transform: uppercase;
+    
     font-weight: 600;
     padding-bottom: 10px;
     color: #fff;
+    margin-top: 20px;
 }
 .footer .address
 {
@@ -958,5 +1102,13 @@ background-color: #333;
     color: #fff;
 }
 .footer .icon-media {
+    color: #fff;
+}
+.icon-media a {
+    color: #fff;;
+}
+
+.cart a {
+    text-decoration: none;
     color: #fff;
 }

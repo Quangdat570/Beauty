@@ -21,6 +21,7 @@
 }
 
 @media screen and ( min-width:376px) and (max-width:430px) {
+    
     .banner h3 {
         
         top: 35%;
@@ -59,6 +60,14 @@
 }
 
 @media screen and ( min-width:431px) and (max-width:576px) {
+    .header .icon a {
+        font-size: 15px;
+        
+    }
+    .header .icon {
+        gap: 5px;
+        padding-right: 10px;
+    }
     
     .banner h3 {
         

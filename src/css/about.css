@@ -1,0 +1,1054 @@
+
+
+
+@media screen and (max-width:374px) {
+    .path {
+        bottom: 20%;
+        left: 25%;
+    }
+    .path .header-path  {
+        font-size: 14px;
+    }
+    .sub-path {
+        font-size: 8px;
+    }
+    
+    .img-about {
+        width: 100%;
+    }
+    .count-1 img {
+        left: -17px;
+        top: 30%;
+        height: 45px;
+       
+        padding: 5px;
+      
+    }
+    
+   
+    
+    .count {
+        font-size: 18px;
+        
+    }
+    .head-count {
+        font-size: 14px;
+        
+    }
+    .count-1 p {
+        font-size: 12px;
+        height: 40px;
+        overflow: hidden;
+        margin: 0;
+       
+    }
+    .list-count {
+        gap: 25px;
+        
+    }
+   
+    .count-1 {
+        padding-left: 0px;
+    }
+    .img-about-2 {
+        left: 20px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:430px) {
+    .path {
+        bottom: 20%;
+        left: 28%;
+    }
+    .path .header-path  {
+        font-size: 16px;
+    }
+    .sub-path {
+        font-size: 12px;
+    }
+    .img-about {
+        width: 100%;
+        height: 100%;
+    }
+    .title {
+        font-size: 12px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+        height: 12px;
+        overflow: hidden;
+        
+    }
+    .pencil {
+        
+        margin-bottom: 10px;
+        
+    }
+    .snow {
+        margin-bottom: 10px;
+        
+    }
+    .funnel {
+        margin-bottom: 10px;
+        
+    }
+    .cup {
+        margin-bottom: 10px;
+        
+    }
+    
+    .pencil i {
+        padding: 2px 10px;
+        
+    }
+    
+    .pencil p {
+        height: 20px;
+        overflow: hidden;
+        padding: 5px 10px 0 10px;
+        
+    }
+    
+    .snow i {
+        padding: 2px 10px;
+        
+    }
+    
+    .snow p {
+        height: 20px;
+        overflow: hidden;
+        padding: 5px 10px 0 10px;
+        
+    }
+    
+    
+    .funnel i {
+        padding: 2px 10px;
+        
+    }
+    .funnel p {
+        padding: 5px 10px 0 10px;
+        height: 20px;
+        overflow: hidden;
+    }
+  
+    
+    .cup i {
+        padding: 2px 10px;
+        
+    }
+    
+    .cup p {
+        padding: 5px 10px 0 10px;
+        height: 20px;
+        overflow: hidden;
+        
+    }
+    
+    .content-about .p {
+        font-size: 12px;
+        height: 30px;
+        overflow: hidden;
+    }
+    .content-about .ingredient p {
+        
+        font-size: 12px;
+      
+        
+    }
+    .content-about .title-about {
+        
+        
+        font-size: 18px;
+        
+    }
+    .content-out {
+       
+        padding: 10px 0px 5px 30px;
+     
+    
+    }
+    
+    .count-1 img {
+        left: -5px;
+        top: 30%;
+        height: 45px;
+       
+        padding: 5px;
+      
+    }
+    
+   
+    
+    .count {
+        font-size: 18px;
+        
+    }
+    .head-count {
+        font-size: 14px;
+        
+    }
+    .count-1 p {
+        font-size: 12px;
+        height: 40px;
+        overflow: hidden;
+        margin: 0;
+       
+    }
+    .list-count {
+        gap: 25px;
+        
+    }
+   
+    .count-1 {
+        padding-left: 15px;
+    }
+    .img-about-2 {
+        left: 20px;
+    }
+
+    /* face care */
+    .title-adorable {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .text-adorable {
+        font-size: 12px;
+        height: 55px;
+        overflow: hidden;
+    }
+}
+    
+
+@media screen and (min-width:431px) and (max-width:576px) {
+    .path {
+        bottom: 20%;
+        left: 33%;
+    }
+    .path .header-path  {
+        font-size: 20px;
+    }
+    .sub-path {
+        font-size: 16px;
+    }
+    .img-about {
+        width: 100%;
+        height: 100%;
+    }
+    .title {
+        font-size: 14px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+    .pencil {
+        
+        margin-bottom: 10px;
+        
+    }
+    .snow {
+        margin-bottom: 10px;
+        
+    }
+    .funnel {
+        margin-bottom: 10px;
+        
+    }
+    .cup {
+        margin-bottom: 10px;
+        
+    }
+    
+    .pencil i {
+        padding: 2px 10px;
+        
+    }
+    
+    .pencil p {
+        padding: 5px 10px 0 10px;
+        
+    }
+    
+    .snow i {
+        padding: 2px 10px;
+        
+    }
+    
+    .snow p {
+        padding: 5px 10px 0 10px;
+        
+    }
+    
+    
+    .funnel i {
+        padding: 2px 10px;
+        
+    }
+    .funnel p {
+        padding: 5px 10px 0 10px;
+    }
+  
+    
+    .cup i {
+        padding: 2px 10px;
+        
+    }
+    
+    .cup p {
+        padding: 5px 10px 0 10px;
+        font-size: 16px;
+        
+    }
+    .content-about .p {
+        font-size: 12px;
+        height: 55px;
+        overflow: hidden;
+    }
+    .content-about .ingredient p {
+        
+        font-size: 12px;
+        /* line-height: 20px; */
+        
+    }
+    .content-about .title-about {
+        
+        
+        font-size: 22px;
+        
+    }
+    .head {
+        
+        font-size: 26px;
+        
+    }
+    .content-out {
+       
+        padding: 10px 0px 5px 30px;
+     
+    
+    }
+    
+    .count-1 img {
+        left: 0px;
+        top: 25%;
+        height: 55px;
+       
+        padding: 5px;
+      
+    }
+    
+   
+    
+    .count {
+        font-size: 18px;
+        
+    }
+    .head-count {
+        font-size: 14px;
+        
+    }
+    .count-1 p {
+        font-size: 12px;
+        height: 40px;
+        overflow: hidden;
+        margin: 0;
+       
+    }
+    .list-count {
+        gap: 20px;
+        justify-content: center;
+    }
+    .count-1 {
+        padding-left: 30px;
+    }
+    .title-face {
+        font-size: 26px;
+    }
+
+     /* face care */
+     .title-adorable {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .text-adorable {
+        font-size: 10px;
+        height: 55px;
+        overflow: hidden;
+    }
+   
+   
+    
+}
+
+@media screen and (min-width:577px) and (max-width:843px) {
+    .path {
+        bottom: 25%;
+        left: 33%;
+    }
+    .path .header-path  {
+        font-size: 26px;
+    }
+    .sub-path {
+        font-size: 22px;
+    }
+    .img-about {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .title {
+        font-size: 16px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+    .pencil {
+        
+        margin-bottom: 10px;
+        
+    }
+    .snow {
+        margin-bottom: 10px;
+        
+    }
+    .funnel {
+        margin-bottom: 10px;
+        
+    }
+    .cup {
+        margin-bottom: 10px;
+        
+    }
+    
+    .pencil i {
+        padding: 10px;
+        
+    }
+    
+    .pencil p {
+        padding: 5px 10px;
+        
+    }
+    
+    .snow i {
+        padding: 5px 10px;
+        
+    }
+    
+    .snow p {
+        padding: 5px 10px;
+        
+    }
+    
+    
+    .funnel i {
+        padding: 5px 10px;
+        
+    }
+    .funnel p {
+        padding: 5px 10px;
+    }
+  
+    
+    .cup i {
+        padding: 10px;
+        
+    }
+    
+    .cup p {
+        padding: 5px 10px;
+        font-size: 16px;
+        
+    }
+    .content-about .p {
+        font-size: 14px;
+    }
+    .content-about .ingredient p {
+        
+        font-size: 12px;
+        /* line-height: 20px; */
+        
+    }
+    .content-about .title-about {
+        
+        
+        font-size: 26px;
+        
+    }
+    .head {
+        
+        font-size: 26px;
+        
+    }
+    .content-out {
+       
+        padding: 15px 0px 15px 40px;
+     
+    
+    }
+    
+    .count-1 img {
+        left: 0px;
+        top: 70px;
+        height: 65px;
+       
+        padding: 10px;
+      
+    }
+    
+   
+    
+    .count {
+        font-size: 22px;
+        
+    }
+    .head-count {
+        font-size: 18px;
+        
+    }
+    .count-1 p {
+        font-size: 14px;
+        height: 80px;
+        overflow: hidden;
+       
+    }
+    .list-count {
+        gap: 40px;
+    }
+    .count-1 {
+        padding-left: 30px;
+    }
+    .list-count {
+        justify-content: center;
+    }
+    .title-face {
+        font-size: 26px;
+    }
+       /* face care */
+       .title-adorable {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .text-adorable {
+        font-size: 13px;
+        height: 55px;
+        overflow: hidden;
+    }
+    .header-adorable {
+        font-size: 26px;
+    }
+   
+   
+   
+    
+
+
+}
+
+@media screen and (min-width:844px) {
+    .path {
+        bottom: 30%;
+        left: 38%;
+    }
+    .path .header-path  {
+        font-size: 32px;
+    }
+    .sub-path {
+        font-size: 26px;
+    }
+    .img-about {
+        width: 100%;
+        height: 100%;
+    }
+    .title {
+        font-size: 20px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+    .pencil {
+        
+        margin-bottom: 15px;
+        
+    }
+    .snow {
+        margin-bottom: 15px;
+        
+    }
+    .funnel {
+        margin-bottom: 15px;
+        
+    }
+    .cup {
+        margin-bottom: 15px;
+        
+    }
+    
+    .pencil i {
+        padding: 10px;
+        
+    }
+    
+    .pencil p {
+        padding: 10px;
+        
+    }
+    
+    .snow i {
+        padding: 10px;
+        
+    }
+    
+    .snow p {
+        padding: 10px;
+        
+    }
+    
+    
+    .funnel i {
+        padding: 10px;
+        
+    }
+    
+    .funnel p {
+        padding: 10px;
+        
+    }
+    
+    .cup i {
+        padding: 10px;
+        
+    }
+    
+    .cup p {
+        padding: 10px;
+        font-size: 16px;
+        
+    }
+    .content-about p {
+        
+        font-size: 16px;
+        line-height: 26px;
+        
+    }
+    .content-about .title-about {
+        
+        
+        font-size: 28px;
+        
+    }
+    .head {
+        
+        font-size: 32px;
+        
+    }
+    .content-out {
+       
+        padding: 20px 0px 20px 60px;
+     
+    
+    }
+    
+    .count-1 img {
+        left: 0px;
+        top: 70px;
+        height: 80px;
+       
+        padding: 15px;
+      
+    }
+    
+   
+    
+    .count {
+        font-size: 25px;
+        
+    }
+    .head-count {
+        font-size: 18px;
+        
+    }
+    .count-1 p {
+        font-size: 14px;
+        height: 80px;
+        overflow: hidden;
+       
+    }
+    .list-count {
+        
+        gap: 40px;
+    }
+    .count-1 {
+        padding-left: 40px;
+    }
+    .title-face {
+        font-size: 32px;
+    }
+   
+
+    /* face care */
+    .title-adorable {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .text-adorable {
+        font-size: 16px;
+    }
+    .header-adorable {
+        font-size: 32px;
+    }
+   
+    
+
+    
+}
+
+@media screen and (min-width:1080px) {
+    .path {
+        bottom: 30%;
+        left: 40%;
+    }
+    .path .header-path  {
+        font-size: 32px;
+    }
+    .sub-path {
+        font-size: 26px;
+    }
+    .img-about {
+        width: 100%;
+        height: 90%;
+    }
+
+    .title {
+        font-size: 20px;
+        
+        margin-bottom: 40px;
+    }
+    .pencil {
+        
+        margin-bottom: 30px;
+        
+    }
+    .snow {
+        margin-bottom: 30px;
+        
+    }
+    .funnel {
+        margin-bottom: 30px;
+        
+    }
+    .cup {
+        margin-bottom: 30px;
+        
+    }
+    
+    .pencil i {
+        padding: 20px;
+        
+    }
+    
+    .pencil p {
+        padding: 20px;
+        
+    }
+    
+    .snow i {
+        padding: 20px;
+        
+    }
+    
+    .snow p {
+        padding: 20px;
+        
+    }
+    
+    
+    .funnel i {
+        padding: 20px;
+        
+    }
+    
+    .funnel p {
+        padding: 20px;
+        
+    }
+    
+    .cup i {
+        padding: 20px;
+        
+    }
+    
+    .cup p {
+        padding: 20px;
+        
+    }
+    .content-about p {
+        
+        font-size: 16px;
+        line-height: 26px;
+        
+    }
+    .content-about .title-about {
+        
+        
+        font-size: 32px;
+        
+    }
+    .head {
+        
+        font-size: 32px;
+        
+    }
+    .content-out {
+        width: 100%;
+        padding: 30px 0px 30px 70px;
+     
+    
+    }
+    
+    .count-1 img {
+        left: 10px;
+        top: 70px;
+        height: 100px;
+       
+        padding: 25px;
+      
+    }
+    
+   
+    
+    .count {
+        font-size: 25px;
+        
+    }
+    .head-count {
+        font-size: 18px;
+        
+    }
+    .count-1 p {
+        font-size: 16px;
+       
+    }
+    .count-1 {
+        padding-left: 60px;
+    }
+    .title-face {
+        font-size: 32px;
+    }
+
+
+    /* face care */
+
+    .title-adorable {
+        font-size: 20px;
+    }
+    .text-adorable {
+        font-size: 16px;
+    }
+    .header-adorable {
+        font-size: 32px;
+    }
+   
+}
+
+
+.banner-about {
+    position: relative;
+}
+
+
+.path {
+    opacity: 0.6;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    
+}
+
+.path .header-path {
+    
+    font-weight: 600;
+}
+.sub-path {
+    letter-spacing: 0.5rem;
+    
+    font-weight: 600;
+}
+/* content about */
+.content-about {
+    margin-bottom: 10px;
+}
+
+.content-about .title-about {
+    text-align: center;
+    font-weight: 600;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title {
+    
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.content-about p {
+    font-family: 'Josefin Sans', sans-serif;
+    
+    padding-right: 10px;
+}
+
+
+.ingredient {
+    flex-direction: column;
+}
+.pencil {
+    align-items: center;
+    text-transform: uppercase;
+}
+.snow {
+    text-transform: uppercase;
+}
+.funnel {
+    text-transform: uppercase;
+}
+.cup {
+    text-transform: uppercase;
+}
+
+.pencil i {
+    background: #FEEBE7;
+}
+
+.pencil p {
+    margin: 0;
+}
+
+.snow i {
+    background: #FEEBE7;
+}
+
+.snow p {
+    margin: 0;
+}
+
+
+.funnel i {
+    
+    background: #FEEBE7;
+}
+
+.funnel p {
+    
+    margin: 0;
+}
+
+.cup i {
+    
+    background: #FEEBE7;
+}
+
+.cup p {
+    
+    margin: 0;
+}
+
+/* out product */
+
+.out-product {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: #FEEBE7;
+   
+}
+.head {
+    text-align: center;
+    
+    margin-bottom: 20px;
+    
+    font-weight: 500;
+}
+.content-out {
+    
+    
+    background: #FFFFFF;
+border: 4px solid #FFAF9B;
+}
+
+
+.count-1 img {
+    position: absolute;
+    
+    background: #FEEBE7;
+border: 4px solid #FFAF9B;
+}
+
+.count-1  {
+    position: relative;
+    
+    justify-content: center;
+}
+
+
+.count {
+    
+    font-weight: 400;
+}
+.head-count {
+    
+    font-weight: 400;
+}
+.count-1 p {
+    
+   width: 80%;
+}
+
+/* face care */
+.adorable {
+    background: #FEEBE7;
+    padding: 20px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header-adorable {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.face-care {
+    padding: 20px 0;
+}
+.title-adorable {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.face-care img {
+    width: 95%;
+}
+.f-colum {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title-face {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+.a-center {
+    align-items: center;
+}
+.t-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+.icon-face {
+    padding: 10px;
+    background: #FFAF9B;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
