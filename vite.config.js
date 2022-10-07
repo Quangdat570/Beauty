@@ -5,6 +5,7 @@ export default defineConfig({
     root: "./src",
     publicDir:"public",
     build: {
+        outDir:"dist",
         rollupOptions: {
             input: {
                 index: resolve(__dirname, "src/index.html"),
