@@ -1,8 +1,68 @@
+@media screen and (min-width:835px) {
+    .service {
+        margin-top: 30px;
+    }
+}
 
 
 
+.img-service {
+    position: relative;
+    
+}
+.img-service .cart-service {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+    
+    padding: 20px;
+    
 
+}
 
-.list-service img {
-    width: 100%;
+.wedding {
+    
+    background: #92BF7C;
+}
+
+.party {
+    background: #CF90BD;
+}
+.concept {
+    background: #77AFCA;
+}
+.cart-service a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.cart-service a:hover {
+    color: #fff;
+}
+.title-product a {
+    text-decoration: none;
+    color: #333;
+}
+
+.title-product {
+
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(235, 225, 225);
+}
+.img-1:hover {
+    background-color: #92BF7C;
+}
+.img-2:hover {
+    background: #CF90BD;
+}
+.img-3:hover {
+    background: #77AFCA;
+}
+.title-product a:hover {
+    color: #fff;
 }
