@@ -40,21 +40,21 @@
         font-size: 12px;
     }
 }
-@media screen and ( min-width:835px) {
+@media screen and ( min-width:835px) and (max-width:1080px) {
     .path {
         bottom: 32%;
         left: 39%;
     }
     .path .header-path  {
-        font-size: 24px;
+        font-size: 32px;
     }
     .sub-path {
-        font-size: 18px;
+        font-size: 24px;
     }
 
 }
 
-@media screen and ( min-width:1080px) {
+@media screen and ( min-width:1080px) and (max-width:1439px) {
     .path {
         bottom: 32%;
         left: 40%;
@@ -67,6 +67,26 @@
     }
 
 }
+@media screen and (min-width:1440px) and (max-width:1919px) {
+    .path {
+        top: 50%;
+        left: 41%;
+    }
+}
+@media screen and ( min-width:1920px) {
+    .path {
+        top: 50%;
+        left: 44%;
+    }
+    .path .header-path  {
+        font-size: 32px;
+    }
+    .sub-path {
+        font-size: 24px;
+    }
+
+}
+
 
 
 

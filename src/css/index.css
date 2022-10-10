@@ -94,20 +94,75 @@
     .group li a {
         display: none;
     }
+    .bi-suit-heart-fill {
+        display: none;
+    }
+    .icon {
+        gap: 5px;
+    }
+    .icon i {
+        font-size: 18px;
+    }
     .content-banner {
-        top: 30px;
+        top: 45px;
         right: 0;
     }
     .content-banner-2 {
-        top: 30px;
+        top: 50px;
         left: 10%;
     }
 
     .title-banner {
         font-size: 32px;
+        line-height: 32px;
     }
     .sub-title {
         font-size: 18px;
+    }
+    .title-hours {
+        font-size: 8px;
+    }
+    .title-minute {
+        font-size: 8px;
+    }
+    .title-second {
+        font-size: 8px;
+    }
+    .title-flash {
+        justify-content: space-evenly;
+    }
+    .flash-sale {
+        justify-content: space-evenly;
+    }
+    .hours {
+        width: 30px;
+        font-size: 14px;
+    }
+    .minutes {
+        width: 30px;
+        font-size: 14px;
+    }
+    .seconds {
+        width: 40px;
+        font-size: 14px;
+    }
+    .nav-item .nav-link {
+        font-size: 16px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    }
+    .offcanvas-title {
+        font-size: 20px;
+        color: #333;
+        
+    }
+    .nav-item:hover {
+        background: rgba(240, 190, 178, 0.9);
+    }
+    .p-20 {
+        padding: 0;
+    }
+    .nav-item {
+        padding: 0 20px;
     }
     .content {
         width: 200px;
@@ -222,6 +277,54 @@
     .logo img {
         width: 100%;
         padding-left: 20px;
+    }
+    .navbar {
+        display: none;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    .bi-suit-heart-fill {
+        display: block;
+    }
+    .bi-list {
+        display: none;
+    }
+    .icon {
+        gap: 10px;
+    }
+    .icon a {
+        font-size: 20px;
+    }
+    .title-hours {
+        font-size: 8px;
+    }
+    .title-minute {
+        font-size: 8px;
+    }
+    .title-second {
+        font-size: 8px;
+    }
+    
+    
+    .title-flash {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .hours {
+        width: 30px;
+    }
+    .minutes {
+        width: 30px;
+    }
+    .seconds {
+        width: 40px;
+    }
+    .title-flash {
+        justify-content: space-evenly;
+    }
+    .flash-sale {
+        justify-content: space-evenly;
     }
     .group li a {
         display: block;
@@ -367,6 +470,18 @@
         display: none;
         
     }
+    .bi-list {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    .icon a {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:834px) {
@@ -378,6 +493,21 @@
         display: block;
         font-size: 13px;
         font-weight: 400;
+    }
+    .bi-list {
+        display: none;
+    }
+    .icon {
+        gap: 10px;
+    }
+    .icon a {
+        font-size: 20px;
+    }
+    .navbar {
+        display: none;
+    }
+    .menu-toggle {
+        display: none;
     }
 
     .content-banner {
@@ -395,6 +525,36 @@
     }
     .sub-title {
         font-size: 22px;
+    }
+    .title-hours {
+        font-size: 8px;
+    }
+    .title-minute {
+        font-size: 8px;
+    }
+    .title-second {
+        font-size: 8px;
+    }
+    
+    
+    .title-flash {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .hours {
+        width: 30px;
+    }
+    .minutes {
+        width: 30px;
+    }
+    .seconds {
+        width: 40px;
+    }
+    .title-flash {
+        justify-content: space-evenly;
+    }
+    .flash-sale {
+        justify-content: space-evenly;
     }
     .content {
         width: 230px;
@@ -512,6 +672,21 @@
         font-weight: 400;
         justify-content: space-evenly;
     }   
+    .icon a {
+        font-size: 20px;
+    }
+    .bi-list {
+        display: none;
+    }
+    .icon {
+        gap: 10px;
+    }
+    .navbar {
+        display: none;
+    }
+    .menu-toggle {
+        display: none;
+    }
 
     .content-banner {
         top: 25%;
@@ -528,6 +703,44 @@
     }
     .sub-title {
         font-size: 30px;
+    }
+    .title-hours {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .title-minute {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .title-second {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .flash-sale {
+        padding-right: 10px;
+    }
+    
+    .title-flash {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .hours {
+        width: 70px;
+        padding: 5px;
+    }
+    .minutes {
+        width: 70px;
+        padding: 5px;
+    }
+    .seconds {
+        width: 70px;
+        padding: 5px;
+    }
+    .title-flash {
+        justify-content: space-evenly;
+    }
+    .flash-sale {
+        justify-content: space-evenly;
     }
     .content {
         width: 400px;
@@ -634,6 +847,15 @@
         padding-top: 20px;
     padding-bottom: 20px;
     }
+    .bi-list {
+        display: none;
+    }
+    .icon {
+        gap: 10px;
+    }
+    .icon a {
+        font-size: 20px;
+    }
     .discount .title-discount {
         position: absolute;
         top: 11%;
@@ -650,6 +872,44 @@
     }
     .sub-title {
         font-size: 70px;
+    }
+    .title-hours {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .title-minute {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .title-second {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .flash-sale {
+        padding-right: 10px;
+    }
+    
+    .title-flash {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .hours {
+        width: 70px;
+        padding: 10px 30px;
+    }
+    .minutes {
+        width: 70px;
+        padding: 10px 30px;
+    }
+    .seconds {
+        width: 70px;
+        padding: 10px 30px;
+    }
+    .title-flash {
+        justify-content: space-evenly;
+    }
+    .flash-sale {
+        justify-content: space-evenly;
     }
     .content {
         width: 500px;
@@ -692,6 +952,53 @@
    
     
 }
+@media screen and ( min-width:1280px) {
+    .icon a {
+        font-size: 20px;
+    }
+    .title-hours {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .title-minute {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .title-second {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .flash-sale {
+        padding-right: 10px;
+    }
+    
+    .title-flash {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .hours {
+        width: 100px;
+        padding: 10px 30px;
+        font-size: 24px;
+    }
+    .minutes {
+        width: 100px;
+        padding: 10px 30px;
+        margin-right: 10px;
+        font-size: 24px;
+    }
+    .seconds {
+        width: 100px;
+        padding: 10px 30px;
+        font-size: 24px;
+    }
+    .title-flash {
+        justify-content: space-around;
+    }
+    .flash-sale {
+        justify-content: space-around;
+    }
+}
 
 
 * {
@@ -721,7 +1028,7 @@
 }
 .header {
     position: relative;
-    background: rgba(241, 217, 211, 0.5);
+    background: rgba(240, 190, 178, 0.9);
     max-width: 100%;
     z-index: 1000;
 }
@@ -751,12 +1058,12 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    
     padding-right: 40px;
 }
 .icon a {
     color: #333;
-    font-size: 20px;
+    
     
 }
 .group {
@@ -927,6 +1234,9 @@
 .product-new h3 {
     text-align: center;
     padding-bottom: 20px;
+}
+.title-product {
+    text-transform: uppercase;
 }
 .list-product {
     justify-content: center;
@@ -1123,3 +1433,31 @@ background-color: #333;
     text-decoration: none;
     color: #fff;
 }
+
+
+.hours {
+color: #fff;
+background-color: #333;
+
+text-align: center;
+}
+.minutes {
+    color: #fff;
+    background-color: #333;
+    
+    text-align: center;
+}
+.seconds {
+    color: #fff;
+    background-color: #333;
+    
+    text-align: center;
+}
+/* navbar */
+.navbar-toggler-icon {
+    font-size: 10px;
+}
+.container-fluid {
+    padding: 0; 
+}
+

@@ -4,26 +4,45 @@ import $ from "jquery";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
-const searchBtn = document.querySelector('.searchBtn');
-const closeBtn = document.querySelector('.closeBtn');
-const searchBox = document.querySelector('.searchBox');
-const nav = document.querySelector('.nav');
-const menuToggle = document.querySelector('.menutoggle');
-const header = document.querySelector('.header');
+// flash sale
+
+const countDownDate = new Date("2024 , 0:0:0").getTime();
 
 
-// searchBtn.onclick = function() {
-//     searchBox.classList.add('active');
-//     closeBtn.classList.add('active');
-//     searchBtn.classList.add('active');
-// }
+const flash = setInterval(function() {
+    const now = new Date().getTime();
+    const distance = countDownDate - now;
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.querySelector('.hours').innerHTML = hours;
+    document.querySelector('.minutes').innerHTML = minutes;
+    document.querySelector('.seconds').innerHTML = seconds;
 
-// closeBtn.onclick = function() {
-//     searchBox.classList.remove('active');
-//     closeBtn.classList.remove('active');
-//     searchBtn.classList.remove('active');
-// }
+})
 
-// menuToggle.onclick = function() {
-//     header.classList.toggle('open');
-// }
+
+// navbar
+
+
+// thêm vào giỏ hàng
+const btn = document.querySelectorAll('.btn-cart');
+const a = document.getElementById('cart-1');
+const b = document.getElementById('cart-2');
+
+
+
+btn.forEach(function(button,index) {
+    button.addEventListener('click',function(event){{
+        var btnItem = event.target;
+        var product = btn.parentElement;
+        // var b = a.parentElement;
+        var productImg = a.querySelector('img');
+        var productImg2 = b.querySelector('img');
+        // var productName = a.querySelector('.title-product').innerText;
+        
+        console.log(productImg);
+        console.log(productImg2);
+    }})
+})
+

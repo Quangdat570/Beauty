@@ -7,45 +7,83 @@
     <title>Dưỡng da, chăm sóc tóc | Beauty</title>
 </head>
 <body>
-    <header class="header header-fixed">
+  <header class="header header-fixed">
       
         
-        <div class=" d-flex">
-          <div class="col-2">
-            <a href="./index.html" class="logo"><img src="./public/img/Beauty.svg" alt=""></a>
-          </div>
-          <div class="group col-8 d-flex">
-            <li><a href="./service.html">SERVICES</a></li>
-            <li><a href="./shop.html">SHOP</a></li>
-            <li><a href="./about.html">ABOUT</a></li>
-            <li><a href="./blog.html">BLOG</a></li>
-            <li><a href="./contact.html">CONTACT US</a></li>
-          </div>
-          <div class="icon d-flex col-2">
-            <a href="./signin.html"><i class="bi bi-person-fill"></i></a>
-            <a href="./cart.html"><i class="bi bi-cart-fill"></i></a>
-            <a href=""><i class="bi bi-list list-icon"></i></a>
+    <div class=" d-flex" style="align-items: center;">
+      <div class="col-2">
+        <a href="index.html" class="logo"><img src="./public/img/Beauty.svg" alt=""></a>
+      </div>
+      <div class="group col-8 d-flex">
+        <li><a href="./service.html">SERVICES</a></li>
+        <li><a href="./shop.html">SHOP</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./blog.html">BLOG</a></li>
+        <li><a href="./contact.html">CONTACT US</a></li>
+      </div>
+      <div class="icon d-flex col-2">
+        <a href="./signin.html"><i class="bi bi-person-fill"></i></a>
+        <a href=""><i class="bi bi-suit-heart-fill list-icon "></i></a>
+        <a href="./cart.html"><i class="bi bi-cart-fill"></i></a>
+        <a href="#" class="menu-toggle">
+          <nav class="navbar ">
+            <div class="container-fluid" style="padding-left: 0px;">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Beauty Shop</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-bodyy p-20">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                   
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+          
+        </a>
 
 
-          </div>
-        </div>
       </div>
     </div>
-  </header>
-
-  <div class="banner">
-    <img src="./public/shop/banner shop 1.svg" alt="" style="width: 100%; height: 50%;">
-    <div class="title-shop">
-        <h3>Beauty products that really work</h3>
-        <p class="content-banner-1">Our formulations have proven efficacy, contain organic.</p>
-        <p class="content-banner-2">ingredients only and are 100% cruelty free</p>
-    </div>
-
-    <div class="path">
-        <div class="header-path">SHOP</div>
-        <div class="sub-path">HOME / SHOP</div>
-    </div>
   </div>
+</div>
+</header>
+
+<div class="banner-about ">
+  <img src="./public/shop/banner shop 2.svg" alt="" style="width: 100%;">
+  <div class="path">
+      <div class="header-path">SHOP</div>
+      <div class="sub-path">HOME / SHOP</div>
+  </div>
+</div>
 
   <div class="search-product">
     <div class="container">
@@ -53,6 +91,15 @@
             <div class="col-12 ">
                 <div class="find-product col-12 d-sm-none   ">
                     <button class="btn-search">product filtration</button>
+                    <ul class="list-search">
+                      <li class="d-flex flex-column">
+                        <input type="text" placeholder="Tìm sản phẩm" style="height: 40px;padding: 0px 20px;">
+                        <a href="">Chăn sóc tóc</a>
+                        <a href="">Skincare</a>
+                        <a href="">Makeup</a>
+                        <a href="">Son</a>
+                      </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-12 d-flex">
@@ -193,42 +240,48 @@
                     <div class="list-product d-flex ">
 
                         <div class="product-info col-6 col-sm-4">
-                            <img src="./public/shop/shop 1.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 1.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
-                                <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                                <a href=""><i class="bi bi-plus-lg"></i></a>
+                                <a href="">
+                                  <div class="text">Cart</div>
+                                </a>
+                                <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">Amet Lipstick</div>
+                              <div class="price">$79.86</div>
               
                               
                               <div class="new">NEW</div>
 
                         </div>
                         <div class="product-info col-6 col-sm-4 ">
-                            <img src="./public/shop/shop 2.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 2.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">Aps Lipstick</div>
+                              <div class="price">$66.90</div>
               
                               
                               <div class="new">NEW</div>
 
                         </div>
                         <div class="product-info d-none col-sm-4 d-sm-block">
-                            <img src="./public/shop/shop 3.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 3.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">BB Cream</div>
+                              <div class="price">$54.06</div>
               
                               
                               <div class="new">NEW</div>
@@ -240,45 +293,51 @@
                     <div class="list-product d-flex">
 
                         <div class="product-info col-6 col-sm-4">
-                            <img src="./public/shop/shop 4.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 4.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">BB Setting Spray</div>
+                              <div class="price">$54.00</div>
               
                               
-                              <div class="new">NEW</div>
+                              <!-- <div class="new">NEW</div> -->
 
                         </div>
                         <div class="product-info col-6 col-sm-4 ">
-                            <img src="./public/shop/shop.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 5.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">Beu Concealer</div>
+                              <div class="price">$89.00</div>
               
                               
-                              <div class="new">NEW</div>
+                              <!-- <div class="new">NEW</div> -->
 
                         </div>
                         <div class="product-info d-none col-sm-4 d-sm-block">
-                            <img src="./public/shop/shop 6.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 6.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">Blossom Conditioner</div>
+                              <div class="price">$67.70</div>
               
                               
-                              <div class="new">NEW</div>
+                              <!-- <div class="new">NEW</div> -->
 
                         </div>
 
@@ -287,45 +346,51 @@
                     <div class="list-product d-flex">
 
                         <div class="product-info col-6 col-sm-4">
-                            <img src="./public/shop/shop 7.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 7.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">Dio Eyeliner</div>
+                              <div class="price">$79.21</div>
               
                               
-                              <div class="new">NEW</div>
+                              <!-- <div class="new">NEW</div> -->
 
                         </div>
                         <div class="product-info col-6 col-sm-4 ">
-                            <img src="./public/shop/shop 8.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 8.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">Dio Mascara</div>
+                              <div class="price">$56.70</div>
               
                               
-                              <div class="new">NEW</div>
+                              <!-- <div class="new">NEW</div> -->
 
                         </div>
                         <div class="product-info d-none col-sm-4 d-sm-block">
-                            <img src="./public/shop/shop 9.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 9.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">Dio Nourishing Skin Cream</div>
+                              <div class="price">$72.35</div>
               
                               
-                              <div class="new">NEW</div>
+                              <!-- <div class="new">NEW</div> -->
 
                         </div>
 
@@ -334,45 +399,51 @@
                     <div class="list-product d-flex">
 
                         <div class="product-info col-6 col-sm-4">
-                            <img src="./public/shop/shop 3.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 10.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">Dio Skin Radiance</div>
+                              <div class="price">$42.86</div>
               
                               
-                              <div class="new">NEW</div>
+                              <!-- <div class="new">NEW</div> -->
 
                         </div>
                         <div class="product-info col-6 col-sm-4 ">
-                            <img src="./public/shop/shop 6.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 11.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">Dio Wrinkle Lift Cream</div>
+                              <div class="price">$66.90</div>
               
                               
-                              <div class="new">NEW</div>
+                              <!-- <div class="new">NEW</div> -->
 
                         </div>
                         <div class="product-info d-none col-sm-4 d-sm-block">
-                            <img src="./public/shop/shop 9.svg" alt="">
+                            <a href="./product.html"><img src="./public/shop/shop 12.svg" alt=""></a>
                             <div class="cart d-flex">
-                                <i class="bi bi-plus-lg"></i>
+                              <a href=""><i class="bi bi-plus-lg"></i></a>
+                              <a href="">
                                 <div class="text">Cart</div>
-                                <i class="bi bi-eye"></i>
+                              </a>
+                              <a href="./product.html"><i class="bi bi-eye"></i></a>
                               </div>
-                              <div class="title-product">AFTERSHAVE LOTION</div>
-                              <div class="price">$56.60</div>
+                              <div class="title-product">Lio Moisturizing Cream</div>
+                              <div class="price">$75.80</div>
               
                               
-                              <div class="new">NEW</div>
+                              <!-- <div class="new">NEW</div> -->
 
                         </div>
 

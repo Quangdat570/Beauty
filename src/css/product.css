@@ -63,6 +63,9 @@
 }
 
 @media screen and (min-width:375px) and (max-width:430px) {
+    .main-product {
+        margin-top: 150px;
+    }
     .detail-product .img-products {
         width: 100%;
         
@@ -137,6 +140,9 @@
 }
 
 @media screen and (min-width:431px) and (max-width:576px) {
+    .main-product {
+        margin-top: 100px;
+    }
     .main-product .img-products {
         width: 100%;
         
@@ -202,6 +208,9 @@
 }
 
 @media screen and (min-width:577px) and (max-width:843px) {
+    .main-product {
+        margin-top: 150px;
+    }
     .detail-product .img-products {
         width: 100%;
         
@@ -272,6 +281,10 @@
 }
 
 @media screen and (min-width:835px) {
+    .main-product {
+        margin-top: 150px;
+        padding-left: 75px;
+    }
     .detail-product .img-products {
         width: 80%;
         
@@ -365,6 +378,7 @@
     }
     .main-product {
         margin-top: 150px;
+        padding-left: 175px;
     }
 }
 

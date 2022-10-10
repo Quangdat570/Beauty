@@ -9,31 +9,75 @@
 <body>
 
 
-    <header class="header header-fixed">
+  <header class="header header-fixed">
       
         
-        <div class=" d-flex">
-          <div class="col-2">
-            <a href="index.html" class="logo"><img src="./public/img/Beauty.svg" alt=""></a>
-          </div>
-          <div class="group col-8 d-flex">
-            <li><a href="./service.html">SERVICES</a></li>
-            <li><a href="./shop.html">SHOP</a></li>
-            <li><a href="./about.html">ABOUT</a></li>
-            <li><a href="./blog.html">BLOG</a></li>
-            <li><a href="./contact.html">CONTACT US</a></li>
-          </div>
-          <div class="icon d-flex col-2">
-            <a href="./signin.html"><i class="bi bi-person-fill"></i></a>
-            <a href=""><i class="bi bi-cart-fill"></i></a>
-            <a href=""><i class="bi bi-list list-icon"></i></a>
+    <div class=" d-flex" style="align-items: center;">
+      <div class="col-2">
+        <a href="index.html" class="logo"><img src="./public/img/Beauty.svg" alt=""></a>
+      </div>
+      <div class="group col-8 d-flex">
+        <li><a href="./service.html">SERVICES</a></li>
+        <li><a href="./shop.html">SHOP</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./blog.html">BLOG</a></li>
+        <li><a href="./contact.html">CONTACT US</a></li>
+      </div>
+      <div class="icon d-flex col-2">
+        <a href="./signin.html"><i class="bi bi-person-fill"></i></a>
+        <a href=""><i class="bi bi-suit-heart-fill list-icon "></i></a>
+        <a href="./cart.html"><i class="bi bi-cart-fill"></i></a>
+        <a href="#" class="menu-toggle">
+          <nav class="navbar ">
+            <div class="container-fluid" style="padding-left: 0px;">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Beauty Shop</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-bodyy p-20">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                   
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+          
+        </a>
 
 
-          </div>
-        </div>
       </div>
     </div>
-  </header>
+  </div>
+</div>
+</header>
 
   <div class="shop-cart">
     <div class="container">

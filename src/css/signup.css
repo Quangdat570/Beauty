@@ -1,0 +1,149 @@
+@media screen and (min-width:375px) and (max-width:540px) {
+    .content-sign {
+        margin-top: 80px;
+        
+    }
+    .form-sign {
+        padding: 20px 60px 20px 20px;
+    }
+    .content-sign input {
+        width: 200px;
+    }
+
+}
+@media screen and (min-width:541px) and (max-width:720px) {
+    .content-sign {
+        margin-top: 100px;
+        
+    }
+    .content-sign input {
+        width: 300px;
+        height: 35px;
+        padding: 0 20px;
+    }
+    .form-sign {
+        padding: 20px 60px 20px 20px;
+    }
+
+}
+
+@media screen and (min-width:721px) and (max-width:960px) {
+    .content-sign {
+        margin-top: 140px;
+        
+    }
+    .content-sign input {
+        width: 350px;
+        height: 40px;
+        padding: 0 20px;
+    }
+    .form-sign {
+        padding: 20px 150px 20px 20px;
+    }
+
+}
+
+@media screen and (min-width:961px) and (max-width:991px) {
+    .content-sign {
+        margin-top: 140px;
+        
+    }
+    .container {
+        max-width: 720px;
+    }
+    .content-sign input {
+        width: 350px;
+        height: 40px;
+        padding: 0 20px;
+    }
+    .form-sign {
+        padding: 20px 150px 20px 20px;
+    }
+  
+}
+@media screen and (min-width:992px) {
+    .content-sign {
+        margin-top: 140px;
+        
+    }
+    .container {
+        max-width: 720px;
+    }
+    .content-sign input {
+        width: 350px;
+        height: 40px;
+        padding: 0 20px;
+    }
+    .form-sign {
+        padding: 20px 250px 20px 20px;
+    }
+    .title {
+        font-size: 24px;
+    }
+  
+}
+
+@media screen and (min-width:1141px) {
+    .form-sign {
+        padding: 20px 270px 20px 20px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+   
+    .form-sign {
+        padding-right: 32%;
+    }
+}
+
+.form-sign {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.content-sign {
+    padding: 30px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.user {
+    margin-bottom: 20px;
+
+}
+.form-sign label {
+    padding-right: 20px;
+}
+
+.forgot {
+    margin-bottom: 20px;
+    
+}
+.forgot a {
+    text-decoration: none;
+}
+.creat a {
+    text-decoration: none;
+}
+.btn-submit {
+    border: none;
+    margin-bottom: 20px;
+    background: #B53D3D;
+    color: #fff;
+    padding: 5px;
+}
+.password {
+    margin-bottom: 20px;
+}
+
+.content-sign input {
+    padding: 0 20px;
+}
+.title {
+    font-weight: 600;
+}
+
+
+

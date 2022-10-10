@@ -699,7 +699,7 @@
     
 }
 
-@media screen and (min-width:1080px) {
+@media screen and (min-width:1080px) and (max-width:1440px) {
     .path {
         bottom: 30%;
         left: 40%;
@@ -846,6 +846,18 @@
     }
    
 }
+@media screen and (min-width:1440px) and (max-width:1919px) {
+    .path {
+        top: 50%;
+        left: 41%;
+    }
+}
+@media screen and ( min-width:1920px) {
+    .path {
+        top: 50%;
+        left: 43%;
+    }
+}
 
 
 .banner-about {
@@ -858,6 +870,7 @@
     color: #fff;
     text-align: center;
     position: absolute;
+    
     
 }
 

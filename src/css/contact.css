@@ -1,0 +1,154 @@
+@media screen and (min-width:375px) and (max-width:540px) {
+    .content {
+        margin-top: 80px;
+    }
+    .form {
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    .title {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .mail p {
+        font-size: 12px;
+    }
+    .head {
+        padding-left: 30px;
+    }
+    .send input {
+        width: 150px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:541px) and (max-width:720px) {
+    .content {
+        margin-top: 100px;
+    }
+    .form {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .head {
+        padding-left: 30px;
+    }
+    .title {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width:721px) and (max-width:960px) {
+    .content {
+        margin-top: 150px;
+    }
+    .form {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .head {
+        padding-left: 30px;
+    }
+    .title {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:961px) and (max-width:1140px) {
+    .content {
+        margin-top: 150px;
+    }
+    .form {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .head {
+        padding-left: 30px;
+    }
+    .title {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:1141px) {
+    .content {
+        margin-top: 150px;
+    }
+    .form {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .head {
+        padding-left: 60px;
+        font-size: 24px;
+        
+    }
+
+    .send input {
+        width: 400px;
+    }
+    .title {
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .form {
+        padding-left: 20px;
+        padding-right: 100px;
+    }
+}
+
+.content {
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.title {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.head {
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+.name {
+    margin-bottom: 20px;
+    
+
+}
+.message {
+    margin-bottom: 20px;
+}
+.name input {
+    
+}
+.email {
+    margin-bottom: 20px;
+}
+.send {
+    padding: 20px 30px 20px 0;
+    border: 0.5px solid #525252;
+}
+.btn {
+    background: #B53D3D;
+    border: 1px solid #525252;
+    
+}
+
+
+
