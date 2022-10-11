@@ -3,3 +3,4 @@ import "../css/global.css";
 
 
 
+const img = document.querySelector('.main-product');

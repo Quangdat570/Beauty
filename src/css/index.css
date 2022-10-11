@@ -186,7 +186,7 @@
         padding-bottom: 10px;
     }
     .product-info .cart {
-        padding: 5px 0;
+        padding: 5px 0px 5px 0;
     }
     .title-brand h3 {
         font-family: 'Playfair Display', serif;
@@ -264,12 +264,27 @@
     .p {
         font-size: 12px;
     }
+    #cart {
+        display: none;
+    }
+   .share {
+    display: block;
+   }
    
 
    
 }
 
 @media screen and (min-width:431px) and (max-width:576px) {
+    #cart {
+        display: none;
+    }
+    .share {
+        display: block;
+       }
+   
+       
+   
     .header-fixed {
         padding-top: 10px;
     padding-bottom: 10px;
@@ -385,7 +400,7 @@
         padding-bottom: 10px;
     }
     .product-info .cart {
-        padding: 10px 0;
+        padding: 10px 0px 10px 0;
     }
     .title-brand h3 {
         font-family: 'Playfair Display', serif;
@@ -482,6 +497,16 @@
     .icon a {
         font-size: 20px;
     }
+    #cart {
+        display: none;
+    }
+    .share {
+        display: block;
+    }
+     .product-info .cart {
+        padding: 10px 20px 10px 0;
+     }  
+   
 }
 
 @media screen and (min-width:577px) and (max-width:834px) {
@@ -594,7 +619,7 @@
         padding-bottom: 10px;
     }
     .product-info .cart {
-        padding: 5px 0;
+        padding: 10px 0px 10px 0;
     }
     .title-brand h3 {
         font-family: 'Playfair Display', serif;
@@ -653,6 +678,13 @@
         gap: 8px;
         
     }
+    #cart {
+        display: none;
+    }
+    .share {
+        display: block;
+       }
+       
    
    
    
@@ -661,7 +693,18 @@
 }
 
 @media screen and (min-width:835px)
+
 {
+    #cart {
+        display: block;
+    }
+    .share {
+        display: none;
+    }
+    .bi-bag {
+        padding-right: 13px;
+    }   
+   
     .header-fixed {
         padding-top: 20px;
     padding-bottom: 20px;
@@ -773,7 +816,7 @@
     }
 
     .product-info .cart {
-        padding: 15px 0;
+        padding: 5px 0px 5px 0;
     }
    
     .title-brand h3 {
@@ -948,6 +991,9 @@
     .list-product-selling {
         gap: 30px;
         width: 100%;
+    }
+    .product-info .cart {
+        padding: 10px 0px 10px 0;
     }
    
     
@@ -1155,10 +1201,10 @@
 
 .product-info .cart {
     position: absolute;
-    bottom: 50px;
+    bottom: 68px;
     left: 0;
     right: 0;
-    
+    align-items: center;
     justify-content: space-around;
     background-color: #333;
     color: #fff;
@@ -1461,3 +1507,236 @@ text-align: center;
     padding: 0; 
 }
 
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; 
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 50%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .main-product {
+    
+    gap: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    align-items: flex-end;
+}
+.list-relate {
+    margin-bottom: 30px;
+}
+.quantily {
+    gap: 30px;
+    align-items: center;
+}
+.count-product {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #402313;
+
+}
+.dash {
+    text-decoration: none;
+    color: #fff;
+    background: #402313;
+    
+}
+.plus {
+    text-decoration: none;
+    color: #fff;
+    background: #402313;
+    
+}
+
+
+
+.add-product a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.add-cart {
+    font-family: 'Josefin Sans', sans-serif;
+    
+    background: #402313;
+   
+    
+}
+.add-wishlist {
+    font-family: 'Josefin Sans', sans-serif;
+   
+    background: #402313;
+    
+}
+.add-product {
+    margin-top: 60px;
+    gap: 20px;
+    
+}
+.quantily {
+    font-size: 20px;
+    margin-top: 40px;
+    
+}
+.title-relate {
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.Related .product-info .cart {
+    position: absolute;
+    bottom: 65px;
+}
+.main-product {
+    
+    padding-left: 175px;
+}
+.detail-product .img-products {
+    width: 80%;
+    
+}
+.title {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.size {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.type {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.quantily {
+    font-size: 20px;
+    
+    
+}
+
+.count-product {
+    width: 120px;
+}
+.dash {
+    padding: 5px 5px 3px 5px;
+}
+.plus {
+    padding: 5px 5px 3px 5px;
+}
+.add-product {
+    margin-top: 20px;
+    gap: 20px;
+    
+}
+
+
+.add-cart {
+    
+    font-size: 20px;
+    
+    padding:  10px;
+    
+}
+.add-wishlist {
+    
+    font-size: 20px;
+    
+    padding: 10px;
+}
+
+/* ======================================= */
+.modal-body {
+
+    margin-left: 18%;
+        gap: 50px;
+}
+.img-products {
+    width: 100%;
+}
+.titlel {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#cart {
+    background-color: #333;
+    border: none;
+}
+
+
+/* thêm vào giỏ hàng */
+.body-plus {
+    display: flex;
+    align-items: center;
+}
+.body-plus img {
+    width: 100px;
+}
+.plus-cart {
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.plus-cart table {
+    width: 100%;
+}
+
+.plus-cart table thead tr th:first-child {
+    text-align: left;
+}
+
+.plus-cart table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+.price-total {
+    text-align: right;
+}
+.price-total p {
+    font-weight: bold;
+}
+
+.plus-cart table thead tr th:last-child {
+    text-align: right;
+}
+.plus-cart table tbody tr td:last-child {
+    text-align: right;
+}
