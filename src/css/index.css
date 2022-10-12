@@ -693,6 +693,9 @@
     .share {
         display: block;
        }
+    /* .product-info .cart  {
+        bottom: 96px;
+    } */
        
    
    
@@ -1204,13 +1207,16 @@
 }
 
 .product-info {
-    position: relative;
+    /* position: relative; */
     text-align: center;
+}
+.product-info .img-product {
+    position: relative;
 }
 
 .product-info .cart {
     position: absolute;
-    bottom: 68px;
+    bottom: 0;
     left: 0;
     right: 0;
     align-items: center;
@@ -1514,11 +1520,25 @@ text-align: center;
     text-align: center;
 }
 /* navbar */
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
     font-size: 10px;
 }
 .container-fluid {
     padding: 0; 
+} */
+.container-fluid .offcanvas {
+    background: rgba(240, 190, 178, 0.9);
+}
+
+.offcanvas-bodyy .navbar-nav {
+    padding: 0px 20px ;
+}
+
+.offcanvas-bodyy .navbar-nav li:hover {
+    background: rgba(233, 152, 132, 0.9);
+}
+.navbar-toggler-icon {
+    font-size: 20px;
 }
 
 /* The Modal (background) */
@@ -1723,6 +1743,7 @@ text-align: center;
 .body-plus img {
     width: 100px;
 }
+
 .plus-cart {
     width: 50%;
     margin: auto;
@@ -1764,7 +1785,7 @@ text-align: center;
     background-color: #ebac8b;
     padding: 12px 20px;
     overflow-y: scroll;
-    right: -100%;
+    right: -500px;
     transition: all 0.3s ease-in-out;
     z-index: 1000;
 }
