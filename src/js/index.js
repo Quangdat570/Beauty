@@ -71,7 +71,7 @@ function addcart(cartImg,cartName,cartPrice) {
       return
     }
   }
-  var trContent = ` <tr><td class="body-plus"><img src="`+cartImg+`" alt="" ><span class="name-cart">`+cartName+`</span></td><td><span class="prices">`+cartPrice+`</span><span>$</span></td><td><input type="number" value="1" min="1" style="width: 30px;outline: none;"></td><td style="cursor: pointer;"><span class="delete-cart">Xóa</span></td></tr>`;
+  var trContent = ` <tr><td class="body-plus"><img src="`+cartImg+`" alt="" ><span class="name-cart">`+cartName+`</span></td><td><span class="prices">`+cartPrice+`</span><span></span></td><td><input type="number" value="1" min="1" style="width: 30px;outline: none;"></td><td style="cursor: pointer;"><span class="delete-cart">Xóa</span></td></tr>`;
   addtr.innerHTML = trContent;
   var cartTable = document.querySelector('tbody');
   cartTable.append(addtr);
@@ -95,11 +95,12 @@ function cartTotal() {
     var totalA = newsProductPrice * inputValue * 1000;
     
     totalC = totalC + totalA;
-    var totalD = totalC.toLocaleString('de-DE');
+    // var totalD = totalC;
     
   }
   var cartTotalA = document.querySelector('.price-total .total');
-  cartTotalA.innerHTML = totalD;
+  cartTotalA.innerHTML = totalC.toLocaleString('de-DE');
+  inputChange();
   
 }
 
@@ -112,11 +113,33 @@ function deleteCart() {
       var cartDelete = event.target;
       var cartItemB = cartDelete.parentElement.parentElement;
       cartItemB.remove();
+      cartTotal();
     })
     
 }
 }
 
 
+// ===================== change ====================
+function inputChange() {
+  var cartItem = document.querySelectorAll('tbody tr');
+  for ( var i = 0; i<cartItem.length;i++) {
+    var inputValueProduct = cartItem[i].querySelector('input');
+    inputValueProduct.addEventListener('change',function() {
+      cartTotal();
+    })
+  
+}
+}
 
+const btnClose = document.querySelector('.bi-x');
+const cartShow = document.querySelector('.bi-cart-fill');
+
+cartShow.addEventListener('click',function() {
+  document.querySelector('.plus-cart').style.right = "0";
+})
+
+btnClose.addEventListener('click',function() {
+  document.querySelector('.plus-cart').style.right = "-100%";
+})
 

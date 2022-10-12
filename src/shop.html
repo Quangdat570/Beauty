@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dưỡng da, chăm sóc tóc | Beauty</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-  <header class="header header-fixed">
+
+  <header class="header header-fixed d-flex">
       
         
-    <div class=" d-flex" style="align-items: center;">
+    
       <div class="col-2">
         <a href="index.html" class="logo"><img src="./public/img/Beauty.svg" alt=""></a>
       </div>
-      <div class="group col-8 d-flex">
+      <div class="group col-8 d-sm-flex d-none">
         <li><a href="./service.html">SERVICES</a></li>
         <li><a href="./shop.html">SHOP</a></li>
         <li><a href="./about.html">ABOUT</a></li>
@@ -22,15 +23,15 @@
         <li><a href="./contact.html">CONTACT US</a></li>
       </div>
       <div class="icon d-flex col-2">
-        <a href="./signin.html"><i class="bi bi-person-fill"></i></a>
-        <a href=""><i class="bi bi-suit-heart-fill list-icon "></i></a>
-        <a href="./cart.html"><i class="bi bi-cart-fill"></i></a>
+        <a href="./signin.html"><i class="bi bi-person-fill d-none d-sm-block"></i></a>
+        <i class="bi bi-suit-heart-fill list-icon "></i>
+        <i class="bi bi-cart-fill"></i>
         <a href="#" class="menu-toggle">
-          <nav class="navbar ">
-            <div class="container-fluid" style="padding-left: 0px;">
+          <nav class="navbar d-block d-sm-none" style="margin: 0;padding: 0;">
+            <div class="container-fluid" style="padding-left: 0px;margin: 0;padding-right: 0;">
               
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler" type="button" style="padding: 0;margin: 0; border: none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i class="bi bi-list"></i>
               </button>
               <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
@@ -40,7 +41,7 @@
                 <div class="offcanvas-bodyy p-20">
                   <ul class="navbar-nav justify-content-end flex-grow-1 ">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                      <a class="nav-link active" aria-current="page" href="./signin.html">Đăng nhập</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="./service.html">Services</a>
@@ -59,7 +60,7 @@
                     </li>
                    
                   </ul>
-                  <form class="d-flex mt-3" role="search">
+                  <form class="d-flex mt-3" role="search" style="padding: 0 20px;">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                   </form>
@@ -72,10 +73,11 @@
 
 
       </div>
-    </div>
+    
   </div>
 </div>
 </header>
+
 
 <div class="banner-about ">
   <img src="./public/shop/banner shop 2.svg" alt="" style="width: 100%;">
@@ -85,468 +87,540 @@
   </div>
 </div>
 
-  <div class="search-product">
-    <div class="container">
-        <div class="row ">
-            <div class="col-12 ">
-                <div class="find-product col-12 d-sm-none   ">
-                    <button class="btn-search">product filtration</button>
-                    <ul class="list-search">
-                      <li class="d-flex flex-column">
-                        <input type="text" placeholder="Tìm sản phẩm" style="height: 40px;padding: 0px 20px;">
-                        <a href="">Chăn sóc tóc</a>
-                        <a href="">Skincare</a>
-                        <a href="">Makeup</a>
-                        <a href="">Son</a>
-                      </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-12 d-flex">
-                <div class="col-sm-3 d-none d-sm-block pl-20">
-                    <div class="fitter">
-                        <div class="title-fitter">Chăm sóc tóc</div>
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Serum dưỡng tóc</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Dầu gội & dầu xả</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">tất cả sản phẩm</div>
-                        </div>
-
-                    </div>
-
-                    <div class="fitter">
-                        <div class="title-fitter">Skincare</div>
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Tẩy trang</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Sữa rửa mặt</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Tẩy tế bào chết</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Toner</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Mặt nạ</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Kem dưỡng da ban ngày</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Kem dưỡng da ban đêm</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Trị mụn & trị thâm</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Dưỡng ẩm</div>
-                        </div>
-
-                    </div>
-
-                    <div class="fitter">
-                        <div class="title-fitter">MAKEUP</div>
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Phấn phủ</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Kem nền</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Phấn má</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Kẻ mày</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Masscara</div>
-                        </div>
-
-                    </div>
-
-                    <div class="fitter border-none">
-                        <div class="title-fitter">SON</div>
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Son 3CE</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Son Black Rouge</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Son Dior</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Son YSL</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Son MAC</div>
-                        </div>
-
-                        <div class="list-fitter d-flex g-10">
-                            <input type="checkbox" name="" id="fitter">
-                            <div class="content-fitter" id="fitter">Tất cả sản phẩm</div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-9 mt-50 ">
-                    <div class="list-product d-flex ">
-
-                        <div class="product-info col-6 col-sm-4">
-                            <a href="./product.html"><img src="./public/shop/shop 1.svg" alt=""></a>
-                            <div class="cart d-flex">
-                                <a href=""><i class="bi bi-plus-lg"></i></a>
-                                <a href="">
-                                  <div class="text">Cart</div>
-                                </a>
-                                <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">Amet Lipstick</div>
-                              <div class="price">$79.86</div>
-              
-                              
-                              <div class="new">NEW</div>
-
-                        </div>
-                        <div class="product-info col-6 col-sm-4 ">
-                            <a href="./product.html"><img src="./public/shop/shop 2.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">Aps Lipstick</div>
-                              <div class="price">$66.90</div>
-              
-                              
-                              <div class="new">NEW</div>
-
-                        </div>
-                        <div class="product-info d-none col-sm-4 d-sm-block">
-                            <a href="./product.html"><img src="./public/shop/shop 3.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">BB Cream</div>
-                              <div class="price">$54.06</div>
-              
-                              
-                              <div class="new">NEW</div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="list-product d-flex">
-
-                        <div class="product-info col-6 col-sm-4">
-                            <a href="./product.html"><img src="./public/shop/shop 4.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">BB Setting Spray</div>
-                              <div class="price">$54.00</div>
-              
-                              
-                              <!-- <div class="new">NEW</div> -->
-
-                        </div>
-                        <div class="product-info col-6 col-sm-4 ">
-                            <a href="./product.html"><img src="./public/shop/shop 5.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">Beu Concealer</div>
-                              <div class="price">$89.00</div>
-              
-                              
-                              <!-- <div class="new">NEW</div> -->
-
-                        </div>
-                        <div class="product-info d-none col-sm-4 d-sm-block">
-                            <a href="./product.html"><img src="./public/shop/shop 6.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">Blossom Conditioner</div>
-                              <div class="price">$67.70</div>
-              
-                              
-                              <!-- <div class="new">NEW</div> -->
-
-                        </div>
-
-                    </div>
-
-                    <div class="list-product d-flex">
-
-                        <div class="product-info col-6 col-sm-4">
-                            <a href="./product.html"><img src="./public/shop/shop 7.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">Dio Eyeliner</div>
-                              <div class="price">$79.21</div>
-              
-                              
-                              <!-- <div class="new">NEW</div> -->
-
-                        </div>
-                        <div class="product-info col-6 col-sm-4 ">
-                            <a href="./product.html"><img src="./public/shop/shop 8.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">Dio Mascara</div>
-                              <div class="price">$56.70</div>
-              
-                              
-                              <!-- <div class="new">NEW</div> -->
-
-                        </div>
-                        <div class="product-info d-none col-sm-4 d-sm-block">
-                            <a href="./product.html"><img src="./public/shop/shop 9.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">Dio Nourishing Skin Cream</div>
-                              <div class="price">$72.35</div>
-              
-                              
-                              <!-- <div class="new">NEW</div> -->
-
-                        </div>
-
-                    </div>
-
-                    <div class="list-product d-flex">
-
-                        <div class="product-info col-6 col-sm-4">
-                            <a href="./product.html"><img src="./public/shop/shop 10.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">Dio Skin Radiance</div>
-                              <div class="price">$42.86</div>
-              
-                              
-                              <!-- <div class="new">NEW</div> -->
-
-                        </div>
-                        <div class="product-info col-6 col-sm-4 ">
-                            <a href="./product.html"><img src="./public/shop/shop 11.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">Dio Wrinkle Lift Cream</div>
-                              <div class="price">$66.90</div>
-              
-                              
-                              <!-- <div class="new">NEW</div> -->
-
-                        </div>
-                        <div class="product-info d-none col-sm-4 d-sm-block">
-                            <a href="./product.html"><img src="./public/shop/shop 12.svg" alt=""></a>
-                            <div class="cart d-flex">
-                              <a href=""><i class="bi bi-plus-lg"></i></a>
-                              <a href="">
-                                <div class="text">Cart</div>
-                              </a>
-                              <a href="./product.html"><i class="bi bi-eye"></i></a>
-                              </div>
-                              <div class="title-product">Lio Moisturizing Cream</div>
-                              <div class="price">$75.80</div>
-              
-                              
-                              <!-- <div class="new">NEW</div> -->
-
-                        </div>
-
-                    </div>
-                    <!--  -->
-
-                   
-                </div>
-               
-                
-                   
-
-
-            </div>
-
-                    
-                
-            </div>
-        </div>
-    </div>
-  </div>
-
-
-  <div class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 d-sm-flex ">
-
-          <div class="col-12 col-sm-3">
-
-            <div class="store">Store</div>
-
-            <div class="address d-flex">
-              <i class="bi bi-house-door"></i>
-              <p>3 Duy tan , Dich vong hau, Ha noi</p>
-            </div>
-
-            <div class="open d-flex">
-              <i class="bi bi-clock"></i>
-              <p class="p">09.00 am - 06.00 pm</p>
-            </div>
-
+<div class="search-product">
+  <div class="container">
+      <div class="row ">
+          <div class="col-12 ">
+              <div class="find-product col-12 d-sm-none   ">
+                  <button class="btn-search">product filtration</button>
+                  <ul class="list-search">
+                    <li class="d-flex flex-column">
+                      <input type="text" placeholder="Tìm sản phẩm" style="height: 40px;padding: 0px 20px;">
+                      <a href="">Chăn sóc tóc</a>
+                      <a href="">Skincare</a>
+                      <a href="">Makeup</a>
+                      <a href="">Son</a>
+                    </li>
+                  </ul>
+              </div>
           </div>
-          
-          <div class="col-12 p-20 col-sm-3">
+          <div class="col-12 d-flex " style="margin-top: 60px;">
+              <div class="col-sm-3 d-none d-sm-block pl-20">
+                  <div class="fitter">
+                      <div class="title-fitter">Chăm sóc tóc</div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Serum dưỡng tóc</div>
+                      </div>
 
-            <div class="store">Contact</div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Dầu gội & dầu xả</div>
+                      </div>
 
-            <div class="address d-flex">
-              <i class="bi bi-telephone"></i>
-              <p>(0000) 123 - 456789</p>
-            </div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">tất cả sản phẩm</div>
+                      </div>
 
-            <div class="open d-flex">
-              <i class="bi bi-envelope"></i>
-              <p class="p">your@email.com</p>
-            </div>
+                  </div>
 
-          </div>
+                  <div class="fitter">
+                      <div class="title-fitter">Skincare</div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Tẩy trang</div>
+                      </div>
 
-          <div class="col-12 p-20 col-sm-3">
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Sữa rửa mặt</div>
+                      </div>
 
-            <div class="store">customer service</div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Tẩy tế bào chết</div>
+                      </div>
 
-            <div class="address d-flex">
-              
-              <p>Ordering guide</p>
-            </div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Toner</div>
+                      </div>
 
-            <div class="open d-flex">
-              
-              <p class="p">Payments</p>
-            </div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Mặt nạ</div>
+                      </div>
 
-          </div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Kem dưỡng da ban ngày</div>
+                      </div>
 
-          <div class="col-12 col-sm-3">
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Kem dưỡng da ban đêm</div>
+                      </div>
 
-            <div class="store t-center">Social media channels</div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Trị mụn & trị thâm</div>
+                      </div>
 
-            <div class="icon-media d-flex j-evely">
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-twitter"></i></a>
-              <a href=""><i class="bi bi-google"></i></a>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Dưỡng ẩm</div>
+                      </div>
 
-              
-            </div>
+                  </div>
 
+                  <div class="fitter">
+                      <div class="title-fitter">MAKEUP</div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Phấn phủ</div>
+                      </div>
+
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Kem nền</div>
+                      </div>
+
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Phấn má</div>
+                      </div>
+
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Kẻ mày</div>
+                      </div>
+
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Masscara</div>
+                      </div>
+
+                  </div>
+
+                  <div class="fitter border-none">
+                      <div class="title-fitter">SON</div>
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Son 3CE</div>
+                      </div>
+
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Son Black Rouge</div>
+                      </div>
+
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Son Dior</div>
+                      </div>
+
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Son YSL</div>
+                      </div>
+
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Son MAC</div>
+                      </div>
+
+                      <div class="list-fitter d-flex g-10">
+                          <input type="checkbox" name="" id="fitter">
+                          <div class="content-fitter" id="fitter">Tất cả sản phẩm</div>
+                      </div>
+
+                  </div>
+              </div>
+
+              <div class="col-12 col-sm-9 mt-50 ">
+                  <div class="list-product d-flex g-20">
+
+                      <div class="product-info col-6 col-sm-4">
+                          <div  class="img-product">
+                            <img src="./public/shop/shop 1.svg" alt="">
+                            <div class="cart d-flex">
+                              <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                              <a href="#"><i class="bi bi-heart"></i></a>
+                              <a href="#" class="share"><i class="bi bi-share"></i></a>
+                              <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                                
+                                <i class="bi bi-eye"></i>
+                              </a>
+                              </div>
+                          </div>
+                            <div class="title-product">Amet Lipstick</div>
+                            <div class="price">$79.86</div>
             
+                            
+                            
+
+                      </div>
+                      <div class="product-info col-6 col-sm-4">
+                        <div  class="img-product">
+                          <img src="./public/shop/shop 2.svg" alt="">
+                          <div class="cart d-flex">
+                            <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                            <a href="#"><i class="bi bi-heart"></i></a>
+                            <a href="#" class="share"><i class="bi bi-share"></i></a>
+                            <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                              
+                              <i class="bi bi-eye"></i>
+                            </a>
+                            </div>
+                        </div>
+                          <div class="title-product">Amet Lipstick</div>
+                          <div class="price">$79.86</div>
+          
+                          
+                          
+
+                    </div>
+                    <div class="product-info col-6 col-sm-4">
+                      <div  class="img-product">
+                        <img src="./public/shop/shop 3.svg" alt="">
+                        <div class="cart d-flex">
+                          <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                          <a href="#"><i class="bi bi-heart"></i></a>
+                          <a href="#" class="share"><i class="bi bi-share"></i></a>
+                          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                            
+                            <i class="bi bi-eye"></i>
+                          </a>
+                          </div>
+                      </div>
+                        <div class="title-product">Amet Lipstick</div>
+                        <div class="price">$79.86</div>
+        
+                        
+                        
+
+                  </div>
+
+                  </div>
+
+                  <div class="list-product d-flex g-20">
+
+                    <div class="product-info col-6 col-sm-4">
+                        <div  class="img-product">
+                          <img src="./public/shop/shop 4.svg" alt="">
+                          <div class="cart d-flex">
+                            <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                            <a href="#"><i class="bi bi-heart"></i></a>
+                            <a href="#" class="share"><i class="bi bi-share"></i></a>
+                            <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                              
+                              <i class="bi bi-eye"></i>
+                            </a>
+                            </div>
+                        </div>
+                          <div class="title-product">Amet Lipstick</div>
+                          <div class="price">$79.86</div>
+          
+                          
+                          
+
+                    </div>
+                    <div class="product-info col-6 col-sm-4">
+                      <div  class="img-product">
+                        <img src="./public/shop/shop 5.svg" alt="">
+                        <div class="cart d-flex">
+                          <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                          <a href="#"><i class="bi bi-heart"></i></a>
+                          <a href="#" class="share"><i class="bi bi-share"></i></a>
+                          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                            
+                            <i class="bi bi-eye"></i>
+                          </a>
+                          </div>
+                      </div>
+                        <div class="title-product">Amet Lipstick</div>
+                        <div class="price">$79.86</div>
+        
+                        
+                        
+
+                  </div>
+                  <div class="product-info col-6 col-sm-4">
+                    <div  class="img-product">
+                      <img src="./public/shop/shop 6.svg" alt="">
+                      <div class="cart d-flex">
+                        <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                        <a href="#"><i class="bi bi-heart"></i></a>
+                        <a href="#" class="share"><i class="bi bi-share"></i></a>
+                        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                          
+                          <i class="bi bi-eye"></i>
+                        </a>
+                        </div>
+                    </div>
+                      <div class="title-product">Amet Lipstick</div>
+                      <div class="price">$79.86</div>
+      
+                      
+                      
+
+                </div>
+
+                </div>
+
+                <div class="list-product d-flex g-20">
+
+                  <div class="product-info col-6 col-sm-4">
+                      <div  class="img-product">
+                        <img src="./public/shop/shop 7.svg" alt="">
+                        <div class="cart d-flex">
+                          <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                          <a href="#"><i class="bi bi-heart"></i></a>
+                          <a href="#" class="share"><i class="bi bi-share"></i></a>
+                          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                            
+                            <i class="bi bi-eye"></i>
+                          </a>
+                          </div>
+                      </div>
+                        <div class="title-product">Amet Lipstick</div>
+                        <div class="price">$79.86</div>
+        
+                        
+                        
+
+                  </div>
+                  <div class="product-info col-6 col-sm-4">
+                    <div  class="img-product">
+                      <img src="./public/shop/shop 8.svg" alt="">
+                      <div class="cart d-flex">
+                        <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                        <a href="#"><i class="bi bi-heart"></i></a>
+                        <a href="#" class="share"><i class="bi bi-share"></i></a>
+                        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                          
+                          <i class="bi bi-eye"></i>
+                        </a>
+                        </div>
+                    </div>
+                      <div class="title-product">Amet Lipstick</div>
+                      <div class="price">$79.86</div>
+      
+                      
+                      
+
+                </div>
+                <div class="product-info col-6 col-sm-4">
+                  <div  class="img-product">
+                    <img src="./public/shop/shop 9.svg" alt="">
+                    <div class="cart d-flex">
+                      <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                      <a href="#"><i class="bi bi-heart"></i></a>
+                      <a href="#" class="share"><i class="bi bi-share"></i></a>
+                      <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                        
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      </div>
+                  </div>
+                    <div class="title-product">Amet Lipstick</div>
+                    <div class="price">$79.86</div>
+    
+                    
+                    
+
+              </div>
+
+              </div>
+
+              <div class="list-product d-flex g-20">
+
+                <div class="product-info col-6 col-sm-4">
+                    <div  class="img-product">
+                      <img src="./public/shop/shop 10.svg" alt="">
+                      <div class="cart d-flex">
+                        <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                        <a href="#"><i class="bi bi-heart"></i></a>
+                        <a href="#" class="share"><i class="bi bi-share"></i></a>
+                        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                          
+                          <i class="bi bi-eye"></i>
+                        </a>
+                        </div>
+                    </div>
+                      <div class="title-product">Amet Lipstick</div>
+                      <div class="price">$79.86</div>
+      
+                      
+                      
+
+                </div>
+                <div class="product-info col-6 col-sm-4">
+                  <div  class="img-product">
+                    <img src="./public/shop/shop 11.svg" alt="">
+                    <div class="cart d-flex">
+                      <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                      <a href="#"><i class="bi bi-heart"></i></a>
+                      <a href="#" class="share"><i class="bi bi-share"></i></a>
+                      <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                        
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      </div>
+                  </div>
+                    <div class="title-product">Amet Lipstick</div>
+                    <div class="price">$79.86</div>
+    
+                    
+                    
+
+              </div>
+              <div class="product-info col-6 col-sm-4">
+                <div  class="img-product">
+                  <img src="./public/shop/shop 12.svg" alt="">
+                  <div class="cart d-flex">
+                    <a class="btn-cart"><i class="bi bi-bag"></i></a>
+                    <a href="#"><i class="bi bi-heart"></i></a>
+                    <a href="#" class="share"><i class="bi bi-share"></i></a>
+                    <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                      
+                      <i class="bi bi-eye"></i>
+                    </a>
+                    </div>
+                </div>
+                  <div class="title-product">Amet Lipstick</div>
+                  <div class="price">$79.86</div>
+  
+                  
+                  
+
+            </div>
+
+            </div>
+              </div>
 
           </div>
-        </div>
-
+   
+          
       </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<div class="modal fade" id="exampleModalToggle" aria-labelledby="exampleModalToggleLabel" tabindex="-1" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" style="max-width:80%">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Chi tiết sản phẩm</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body d-flex">
+        <div class="col-6 img-products" >
+          <img src=" " alt="" class="imgggggg">
+        </div>
+        <div class="col-6 list-detail">
+          <div class="titlel"></div>
+          <div class="prices">Price : <span></span></div>
+          <div class="size">Size : 60 ml</div>
+          <div class="type">Type : Breard oil</div>
+          <div class="quantily d-flex">
+              <div class="text-quantily">Quantity:</div>
+              <div class="count-product">
+                  <a href="#" class="dash">
+                      <i class="bi bi-dash"></i>
+                  </a>
+                  1
+                  <a href="#" class="plus">
+                      <i class="bi bi-plus"></i>
+                      
+                  </a>
+
+              </div>
+          </div>
+
+          <div class="add-product d-flex">
+              <div class="add-cart">
+                  <a href="#">Add to cart</a>
+              </div>
+              <div class="add-wishlist">
+                  <a href="#">Add to wishlist</a>
+              </div>
+          </div>
+        </div>
+        
+  </div>
+      </div>
+      
     </div>
   </div>
+</div>
 
 
+<section class="plus-cart">
+  <i class="bi bi-x"></i>
+  <form action="">
+    <table>
+      <thead>
+        <tr>
+          <th>Sản Phẩm</th>
+          <th>Giá</th>
+          <th>Số Lượng</th>
+          <th>Chọn</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <td class="body-plus">
+            <img src="./public/blog/blog 1.svg" alt="" >sản phẩm 1
+          </td>
+          <td>320.000</td>
+          <td><input type="number" value="1" min="1" style="width: 30px;outline: none;"></td>
+          <td style="cursor: pointer;">Xóa</td>
+        </tr>
+
+        <tr>
+          <td class="body-plus">
+            <img src="./public/blog/blog 1.svg" alt="" >sản phẩm 1
+          </td>
+          <td>220.000 <span>$</span></td>
+          <td><input type="number" value="1" min="1" style="width: 30px;outline: none;"></td>
+          <td style="cursor: pointer;">Xóa</td>
+        </tr> -->
+      </tbody>
+    </table>
+    <div class="price-total">
+      <p>Tổng tiền <span class="total">0</span>  <span>$</span></p>
+    </div>
+    <button>Thanh toán</button>
+  </form>
+</section>
 
 
-
-    <script type="module" src="./js/shop.js" ></script>
-    <script src="./js/global.js" type="module"></script>
+  <script src="./js/shop.js" type="module"></script>
+  
+  
 </body>
 </html>
