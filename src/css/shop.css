@@ -564,3 +564,9 @@ margin-top: 30px;
 .t-center {
     text-align: center;
 }
+.img-product img {
+    border-radius: 20px;
+}
+.img-products img {
+    border-radius: 20px;
+}

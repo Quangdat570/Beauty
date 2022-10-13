@@ -9,9 +9,9 @@ import "bootstrap/dist/js/bootstrap.min.js";
 const btnSearch = document.querySelector('.btn-search');
 const listSearch = document.querySelector('.list-search');
 
-btnSearch.onclick = function(){
-    listSearch.classList.toggle('show');
-}
+// btnSearch.onclick = function(){
+//     listSearch.classList.toggle('show');
+// }
 
 
 const btn = document.querySelectorAll('#cart');

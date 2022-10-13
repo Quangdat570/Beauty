@@ -1,20 +1,47 @@
-@media screen and (max-width:540px) {
+@media screen and (min-width:375px) and (max-width:430px) {
     .cart-service a {
         font-size: 12px;
     }
     .img-service .cart-service {
         padding: 20px;
     }
+    .path {
+        font-size: 14px;
+        top: 34%;
+        left: 31%;
+    }
 }
-@media screen and (min-width:541px) {
+@media screen and (min-width:431px) and (max-width:576px) {
+    .cart-service a {
+        font-size: 12px;
+    }
+    .img-service .cart-service {
+        padding: 20px;
+    }
+    .path {
+        font-size: 14px;
+        top: 34%;
+        left: 34%;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:834px) {
+    .service {
+        margin-top: 30px;
+    }
     .cart-service a {
         font-size: 12px;
     }
     .img-service .cart-service {
         padding: 10px;
     }
+    .path {
+        font-size: 22px;
+        top: 34%;
+        left: 34%;
+    }
 }
-@media screen and (min-width:835px) {
+@media screen and (min-width:835px) and ( max-width:1140px) {
     .service {
         margin-top: 30px;
     }
@@ -24,7 +51,44 @@
     .img-service .cart-service {
         padding: 20px;
     }
+    .path {
+        font-size: 26px;
+        top: 33%;
+        left: 35%;
+    }
 
+}
+@media screen and (min-width:1141px) and (max-width:1440px) {
+    .service {
+        margin-top: 30px;
+    }
+    .path {
+        font-size: 32px;
+        top: 36%;
+        left: 38%;
+    }
+    .cart-service a {
+        font-size: 16px;
+    }
+    .img-service .cart-service {
+        padding: 20px;
+    }
+}
+@media screen and (min-width:1441px) {
+    .service {
+        margin-top: 30px;
+    }
+    .path {
+        font-size: 32px;
+        top: 36%;
+        left: 43%;
+    }
+    .cart-service a {
+        font-size: 16px;
+    }
+    .img-service .cart-service {
+        padding: 20px;
+    }
 }
 
 
@@ -93,4 +157,24 @@
 }
 .product-info {
     margin-top: 20px;
+}
+
+/* banner */
+.banner-about {
+    position: relative;
+}
+.path {
+    position: absolute;
+    
+    transform: translateY(50%);
+    text-align: center;
+}
+.header-path {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+.sub-path {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
 }

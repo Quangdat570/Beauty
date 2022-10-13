@@ -1812,3 +1812,6 @@ text-align: center;
     
     float: left;
 }
+.img-products {
+    border-radius: 20px;
+}

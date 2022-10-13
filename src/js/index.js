@@ -145,6 +145,6 @@ cartShow.addEventListener('click',function() {
 })
 
 btnClose.addEventListener('click',function() {
-  document.querySelector('.plus-cart').style.right = "-100%";
+  document.querySelector('.plus-cart').style.right = "-500px";
 })
 
