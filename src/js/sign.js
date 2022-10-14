@@ -8,39 +8,51 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
 
 
-var email = document.querySelector('#email');
-var password = document.querySelector('#password');
+// var email = document.querySelector('#email');
+// var password = document.querySelector('#password');
 
-function showError(input,message) {
-    let parent = input.parentElement;
-    let text = parent.querySelector('#text');
-    parent.classList.add('error');
-    text.innerText = message;
+// function showError(input,message) {
+//     let parent = input.parentElement;
+//     let text = parent.querySelector('#text');
+//     parent.classList.add('error');
+//     text.innerText = message;
+    
+// }
+
+// function showSuccess(input) {
+//     let parent = input.parentElement;
+//     let text = parent.querySelector('#text');
+//     parent.classList.remove('error');
+//     text.innerText = '';
+   
+// }
+
+// function checkEmtyError(listInput) {
+//     let isEmtyError = false;
+//     listInput.forEach(input => {
+//         input.value = input.value.trim();
+//         if (!input.value) {
+//             isEmtyError = true;
+//             showError(input, 'Không được để trống');
+//         }
+//         else {
+//             showSuccess(input);
+//         }
+//     });
+//     return isEmtyError;
+// }
+
+// form.addEventListener('submit', function(event) {
+//     event.preventDefault();
+
+//     checkEmtyError([email,password]);
+// })
+
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "" || x == null) {
+      alert("Name must be filled out");
+      return false;
+    }
     
 }
-
-function showSuccess(input) {
-    let parent = input.parentElement;
-    let text = parent.querySelector('#text');
-    parent.classList.remove('error');
-    text.innerText = '';
-   
-}
-
-function checkEmtyError(listInput) {
-    listInput.forEach(input => {
-        input.value = input.value.trim();
-        if (!input.value) {
-            showError(input, 'Không được để trống');
-        }
-        else {
-            showSuccess(input);
-        }
-    })
-}
-
-form.addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    checkEmtyError([email,password]);
-})
