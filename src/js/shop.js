@@ -142,3 +142,67 @@ cartShow.addEventListener('click',function() {
 btnClose.addEventListener('click',function() {
   document.querySelector('.plus-cart').style.right = "-100%";
 })
+
+
+
+// loc sp ===============================================
+
+
+$(document).ready(function() {
+  var $products = $('.grid-products'),
+      $filters = $("#filters input[type='checkbox']"),
+      product_filter = new ProductFilterLevel1($products, $filters);
+  product_filter.init();
+});
+
+function ProductFilterLevel1(products, filters) {
+  var _this = this;
+
+  this.init = function() {
+    this.products = products;
+    this.filters = filters;
+    this.bindEvents();
+  };
+
+  this.bindEvents = function() {
+    this.filters.click(this.filterGridProducts);
+    $('#none').click(this.removeAllFilters);
+  };
+
+  this.filterGridProducts = function() {
+    _this.products.hide();
+    var selectedFilters = _this.filters.filter(':checked');
+    if (selectedFilters.length) {
+      var selectedFiltersValues = [];
+      selectedFilters.each(function() {
+        var currentFilter = $(this);
+        selectedFiltersValues.push("[data-" + currentFilter.attr('name') + "='" + currentFilter.val() + "']");
+      });
+      _this.products.filter(selectedFiltersValues.join(',')).show();
+    } else {
+      _this.products.show();
+    }
+  };
+
+  this.removeAllFilters = function() {
+    _this.filters.prop('checked', false);
+    _this.products.show();
+  }
+}
+
+
+const page = document.querySelector('#page2');
+
+const page1 = document.querySelector('.page-1');
+const page2 = document.querySelector('.page-2');
+const pageFirst = document.querySelector('#page1');
+
+page.addEventListener('click',function() {
+  page1.classList.add('a');
+  page2.classList.add('b');
+
+})
+pageFirst.addEventListener('click',function() {
+  page1.classList.remove('a');
+  page2.classList.remove('b');
+})

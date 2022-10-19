@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import $ from "jquery";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import "animate.css";
 
 // flash sale
 
@@ -66,10 +67,13 @@ function addcart(cartImg, cartName, cartPrice) {
   var addtr = document.createElement("tr");
   var cartItem = document.querySelectorAll("tbody tr");
   for (var i = 0; i < cartItem.length; i++) {
+    
     var productT = document.querySelectorAll(".name-cart");
     if (productT[i].innerHTML == cartName) {
-      alert("Sản phẩm của bạn đã có trong giỏ hàng");
+      // alert("Sản phẩm của bạn đã có trong giỏ hàng");
       return;
+    } else {
+      
     }
   }
   var trContent =

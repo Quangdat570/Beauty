@@ -12,10 +12,11 @@
     "vite": "^3.1.0"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
     "codepen": "^1.0.0",
     "jquery": "^3.6.1"
   }
 }
-

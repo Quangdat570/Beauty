@@ -57,7 +57,7 @@
     }
     .path {
         font-size: 26px;
-        top: 23%;
+        top: 15%;
         left: 37%;
     }
     
@@ -76,8 +76,8 @@
     }
     .path {
         font-size: 32px;
-        top: 25%;
-        left: 40%;
+        top: 17%;
+        left: 37%;
     }
 }
 @media screen and (min-width:1140px) {
@@ -569,4 +569,26 @@ margin-top: 30px;
 }
 .img-products img {
     border-radius: 20px;
+}
+.sections ul {
+    padding: 0;
+}
+
+.sections ul li {
+    list-style: none;
+}
+.grid-products .product-info {
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.page-2 {
+    display: none;
+}
+
+.a {
+    display: none;
+}
+.b {
+    display: block;
 }

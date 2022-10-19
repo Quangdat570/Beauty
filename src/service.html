@@ -11,24 +11,24 @@
   <header class="header header-fixed">
       
         
-    <div class=" d-flex" style="align-items: center;">
+    <div class=" d-flex" style="align-items: center;justify-content: space-between;">
       <div class="col-2">
         <a href="index.html" class="logo"><img src="./public/img/Beauty.svg" alt=""></a>
       </div>
-      <div class="group col-8 d-flex">
+      <div class="group col-8 d-sm-flex d-none">
         <li><a href="./service.html">SERVICES</a></li>
         <li><a href="./shop.html">SHOP</a></li>
         <li><a href="./about.html">ABOUT</a></li>
         <li><a href="./blog.html">BLOG</a></li>
         <li><a href="./contact.html">CONTACT US</a></li>
       </div>
-      <div class="icon d-flex col-2">
+      <div class="icon d-flex col-2" style="align-items: baseline;">
         <a href="./signin.html"><i class="bi bi-person-fill d-none d-sm-block"></i></a>
-        <i class="bi bi-suit-heart-fill list-icon "></i>
+        <i class="bi bi-suit-heart-fill list-icon d-none d-sm-block"></i>
         <i class="bi bi-cart-fill"></i>
-        <a href="#" class="menu-toggle">
+        <a href="#" class="menu-toggle d-block d-sm-none">
           <nav class="navbar d-block d-sm-none" style="margin: 0;padding: 0;">
-            <div class="container-fluid" style="padding-left: 0px;margin: 0;">
+            <div class="container-fluid d-block d-sm-none" style="padding-left: 0px;margin: 0;">
               
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <i class="bi bi-list"></i>
@@ -60,7 +60,7 @@
                     </li>
                    
                   </ul>
-                  <form class="d-flex mt-3" role="search">
+                  <form class="d-flex mt-3 p-20" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                   </form>

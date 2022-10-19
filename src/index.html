@@ -7,6 +7,7 @@
     <title>Dưỡng da, chăm sóc tóc | Beauty</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
    
@@ -17,31 +18,31 @@
     <header class="header header-fixed">
       
         
-          <div class=" d-flex" style="align-items: center;">
+          <div class=" d-flex" style="align-items: center;justify-content: space-between;">
             <div class="col-2">
               <a href="index.html" class="logo"><img src="./public/img/Beauty.svg" alt=""></a>
             </div>
-            <div class="group col-8 d-flex">
+            <div class="group col-8 d-sm-flex d-none">
               <li><a href="./service.html">SERVICES</a></li>
               <li><a href="./shop.html">SHOP</a></li>
               <li><a href="./about.html">ABOUT</a></li>
               <li><a href="./blog.html">BLOG</a></li>
               <li><a href="./contact.html">CONTACT US</a></li>
             </div>
-            <div class="icon d-flex col-2">
+            <div class="icon d-flex col-2" style="align-items: baseline;">
               <a href="./signin.html"><i class="bi bi-person-fill d-none d-sm-block"></i></a>
-              <i class="bi bi-suit-heart-fill list-icon "></i>
+              <i class="bi bi-suit-heart-fill list-icon d-none d-sm-block"></i>
               <i class="bi bi-cart-fill"></i>
-              <a href="#" class="menu-toggle">
+              <a href="#" class="menu-toggle d-block d-sm-none">
                 <nav class="navbar d-block d-sm-none" style="margin: 0;padding: 0;">
-                  <div class="container-fluid" style="padding-left: 0px;margin: 0;">
+                  <div class="container-fluid d-block d-sm-none" style="padding-left: 0px;margin: 0;">
                     
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                       <i class="bi bi-list"></i>
                     </button>
                     <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                       <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Beauty Shop</h5>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="padding: 0 20px;">Beauty Shop</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                       </div>
                       <div class="offcanvas-bodyy p-20">
@@ -66,7 +67,7 @@
                           </li>
                          
                         </ul>
-                        <form class="d-flex mt-3" role="search">
+                        <form class="d-flex mt-3 p-20" role="search">
                           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                           <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
@@ -124,14 +125,14 @@
       </div>
     </div>
     
-    <div class="slogan">
-      <h3 class="title-slogan">BEAUTY STANDUP</h3>
-      <p>L'Oréal Paris pledges to stand up (Stand Up) against racist behavior</p>
-      <p>Join L'Oréal Paris in the fight against racism!</p>
+    <div class="slogan" >
+      <h3 class="title-slogan animate__animated animate__flash">BEAUTY STANDUP</h3>
+      <p class="animate__animated animate__bounce">Beauty pledges to stand up (Stand Up) against racist behavior</p>
+      <p class="animate__animated animate__bounce">Join Beauty in the fight against racism!</p>
       
     </div>
 
-    <div class="support">
+    <div class="support" >
       
         
           <div class=" d-flex j-around">
@@ -736,6 +737,7 @@
   </section>
     
     <script type="module" src="./js/index.js" ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
   </body>
 </html>
