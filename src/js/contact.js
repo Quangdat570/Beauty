@@ -1,4 +1,4 @@
-import "../css/contact.css";
 import "../css/global.css";
+import "../css/contact.css";
 
 

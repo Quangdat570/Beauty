@@ -1,4 +1,3 @@
-import "../css/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import $ from "jquery";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -7,6 +6,7 @@ import _ from "lodash";
 import "../js/db.js";
 import { products } from "./db";
 import "../css/checkout.css";
+import "../css/index.css";
 
 let cartt = JSON.parse(localStorage.getItem("product-info")) || [];
 const deleteItem = (event) => {
