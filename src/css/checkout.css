@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width:375px) and (max-width:719px) {
-    .content {
+    .contentt {
         margin-top: 60px;
     }
     .cart-list .title {
@@ -39,7 +39,7 @@
     
 }
 @media screen and (min-width:720px) and (max-width:959px) {
-    .content {
+    .contentt {
         margin-top: 100px;
     }
     .cart-list .title {
@@ -59,7 +59,7 @@
     }
 }
 @media screen and (min-width:960px ) {
-    .content {
+    .contentt {
         margin-top: 100px;
         
     }
