@@ -1,7 +1,7 @@
 export const products = [
     {
       id:1,
-      thumbnail: "public/shop/shop 1.svg",
+      thumbnail: "/shop/shop 1.svg",
       title: "Amet Lipstick",
       price:40,
       type:"son",
