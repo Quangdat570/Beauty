@@ -620,3 +620,10 @@ margin-top: 30px;
 .b {
     display: block;
 }
+.buy {
+    text-decoration: none;
+    color: #333;
+}
+.buy:hover {
+    color: #ddd;
+}

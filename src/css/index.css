@@ -1591,7 +1591,7 @@ text-align: center;
 .list-relate {
     margin-bottom: 30px;
 }
-.quantily {
+.quantilyy {
     gap: 30px;
     align-items: center;
 }
@@ -1689,7 +1689,7 @@ text-align: center;
 }
 
 .count-product {
-    width: 120px;
+    width: 90px;
 }
 .dash {
     padding: 5px 5px 3px 5px;
@@ -1706,14 +1706,14 @@ text-align: center;
 
 .add-cart {
     
-    font-size: 20px;
+    font-size: 16px;
     
     padding:  10px;
     
 }
 .add-wishlist {
     
-    font-size: 20px;
+    font-size: 16px;
     
     padding: 10px;
 }
@@ -1833,15 +1833,15 @@ table .prices {
     font-size: 14px;
 }
 .icon-media .bi-facebook {
-    color: #fff;
+    color: rgb(29, 155, 240);
     
 }
 .icon-media .bi-twitter {
-    color: rgb(29, 155, 240)
+    color: rgb(29, 155, 240);
 }
 .icon-media .bi-instagram {
-    color: rgb(29, 155, 240)
+    color: rgb(29, 155, 240);
 }
 .icon-media .bi-twitter {
-    color: rgb(29, 155, 240)
+    color: rgb(29, 155, 240);
 }
