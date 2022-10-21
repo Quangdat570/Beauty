@@ -7,8 +7,7 @@
     }
     .path {
         font-size: 14px;
-        top: 34%;
-        left: 31%;
+        
     }
 }
 @media screen and (min-width:431px) and (max-width:576px) {
@@ -20,8 +19,7 @@
     }
     .path {
         font-size: 14px;
-        top: 34%;
-        left: 34%;
+        
     }
 }
 
@@ -37,8 +35,7 @@
     }
     .path {
         font-size: 22px;
-        top: 34%;
-        left: 34%;
+        
     }
 }
 @media screen and (min-width:835px) and ( max-width:1140px) {
@@ -53,8 +50,7 @@
     }
     .path {
         font-size: 26px;
-        top: 33%;
-        left: 35%;
+        
     }
 
 }
@@ -64,8 +60,7 @@
     }
     .path {
         font-size: 32px;
-        top: 36%;
-        left: 38%;
+        
     }
     .cart-service a {
         font-size: 16px;
@@ -80,8 +75,7 @@
     }
     .path {
         font-size: 32px;
-        top: 36%;
-        left: 43%;
+        
     }
     .cart-service a {
         font-size: 16px;
@@ -166,7 +160,9 @@
 .path {
     position: absolute;
     
-    transform: translateY(50%);
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
     text-align: center;
 }
 .header-path {

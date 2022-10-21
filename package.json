@@ -17,6 +17,7 @@
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
     "codepen": "^1.0.0",
-    "jquery": "^3.6.1"
+    "jquery": "^3.6.1",
+    "lodash": "^4.17.21"
   }
 }

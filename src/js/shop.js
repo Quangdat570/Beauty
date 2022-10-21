@@ -4,6 +4,76 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import $ from "jquery";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import _ from "lodash";
+import { products } from "./db";
+
+
+
+
+
+
+
+
+
+$(".list").append(products.map((p) => {
+  
+  const dom = $(`
+  <li class="grid-products  col-6 col-lg-4" data-colour="${p.type}">
+    <div class="product-info  " >
+      <div  class="img-product">
+        <img src="${ p.thumbnail}" alt="">
+        <div class="cart d-flex">
+          <a class="btn-cart"><i class="bi bi-bag"></i></a>
+          <a href="#"><i class="bi bi-heart"></i></a>
+          <a href="#" class="share"><i class="bi bi-share"></i></a>
+          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+            
+            <i class="bi bi-eye"></i>
+          </a>
+          </div>
+      </div>
+        <div class="title-product">${p.title}</div>
+        <div class="price">$${p.price}.00</div>
+  </li>`);
+  dom.find(".btn-cart").on("click", () => {
+    const addCart = JSON.parse(localStorage.getItem("product-info")) || [];
+    // const item = addCart.find((i) => i.Product.id === p.id);
+    
+    // if (item) {
+    //   item.quantity +=1;
+
+    // } else {
+    //   addCart.push({
+    //     product: p.id,
+    //     quantity:1,
+    //   })
+    // }
+    const item = _.find(addCart, { product: p.id });
+
+    if (item) {
+        item.quantity += 1;
+    } else {
+      addCart.push({
+            product: p.id,
+            quantity: 1,
+        });
+    }
+
+    // localStorage.setItem("cart", JSON.stringify(cart));
+    
+    localStorage.setItem("product-info",JSON.stringify(addCart));
+
+    
+  })
+  return dom;
+  })
+  
+ );
+
+
+
+
+
 
 
 const btnSearch = document.querySelector('.btn-search');
@@ -33,7 +103,7 @@ btn.forEach(function(a,index) {
       imgggg.src = productImg;
       name.textContent = productName;
       priceProduct.textContent = productPrice;
-      console.log(imgProduct,index);
+      
       
       
       
@@ -53,7 +123,7 @@ bag.forEach(function(a,index) {
     var cartImg = father.querySelector('img').src;
     var cartName = father.querySelector('.title-product').innerText;
     var cartPrice = father.querySelector('.price').innerText;
-    
+    alert('Sản phẩm đã được thêm vào giỏ hàng');
     addcart(cartImg,cartName,cartPrice);
 
     
@@ -67,7 +137,7 @@ function addcart(cartImg,cartName,cartPrice) {
     var productT = document.querySelectorAll('.name-cart');
     if (productT[i].innerHTML == cartName) {
       
-      alert ("Sản phẩm của bạn đã có trong giỏ hàng");
+      // alert ("Sản phẩm của bạn đã có trong giỏ hàng");
       return
     }
   }

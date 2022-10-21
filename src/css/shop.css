@@ -5,7 +5,30 @@
     
 }
 
-@media screen and ( min-width:375px) and (max-width:576px) {
+@media screen and ( min-width:375px) and (max-width:430px) {
+    /* .icon {
+        gap: 5px;
+    } */
+    .icon i .bi-cart-fill {
+        font-size: 14px;
+    }
+    .header {
+        padding: 0px 10px;
+    }
+    .list-product {
+        gap: 5px;
+    }
+    .path {
+        font-size: 14px;
+        
+       
+    }
+    .logo img {
+        width: 100%;
+    }
+}
+
+@media screen and ( min-width:431px) and (max-width:576px) {
     .icon {
         gap: 5px;
     }
@@ -17,10 +40,11 @@
     }
     .path {
         font-size: 18px;
-        top: 10%;
-        left: 37%;
+        
     }
 }
+
+
 
 @media screen and (min-width:576px) and (max-width:720px) {
     
@@ -39,8 +63,7 @@
     }
     .path {
         font-size: 22px;
-        top: 16%;
-        left: 37%;
+        
     }
     
 }
@@ -57,8 +80,7 @@
     }
     .path {
         font-size: 26px;
-        top: 15%;
-        left: 37%;
+        
     }
     
 }
@@ -76,8 +98,7 @@
     }
     .path {
         font-size: 32px;
-        top: 17%;
-        left: 37%;
+        
     }
 }
 @media screen and (min-width:1140px) {
@@ -100,8 +121,7 @@
     /* banner */
     .path {
         font-size: 32px;
-        top: 25%;
-        left: 40%;
+        
     }
     .list-product {
         gap: 20px;
@@ -109,7 +129,7 @@
 
 }
 
-@media screen and (min-width:1140px) and (max-width:1440px) {
+@media screen and (min-width:1141px) and (max-width:1440px) {
     .header .logo img {
         padding: 0;
     }
@@ -129,14 +149,13 @@
     /* banner */
     .path {
         font-size: 32px;
-        top: 25%;
-        left: 40%;
+        
     }
     .list-product {
         gap: 20px;
     }
 }
-@media screen and (min-width:1440px) and (max-width:1920px) {
+@media screen and (min-width:1441px) and (max-width:1920px) {
     .header .logo img {
         padding: 0;
     }
@@ -156,8 +175,7 @@
     /* banner */
     .path {
         font-size: 32px;
-        top: 36%;
-        left: 43%;
+        
     }
     .list-product {
         gap: 20px;
@@ -165,6 +183,7 @@
 }
 
 /*  header */
+
 
 .header {
     position: relative;
@@ -246,10 +265,15 @@
 
 
 /* banner */
+.banner-about {
+    position: relative;
+}
 .path {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     
-    transform: translateY(50%);
     text-align: center;
 }
 .header-path {
@@ -290,6 +314,10 @@
 }
 .list-fitter {
     margin-bottom: 10px;
+    
+}
+.find-product ul {
+    padding: 0;
 }
 .product-info {
     position: relative;

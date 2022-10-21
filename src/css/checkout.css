@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 16px; */
+}
+@media screen and (max-width:374px) {
+    
+}
+
+@media screen and (min-width:375px) and (max-width:719px) {
+    .content {
+        margin-top: 60px;
+    }
+    .cart-list .title {
+        padding: 50px 0;
+        font-size: 12px;
+    }
+    .cart-list .pricee {
+        padding: 40px 0;
+    }
+    
+    .cart-list .prices {
+        padding: 40px 0;
+    }
+    .cart-list .delete {
+        padding: 40px 10px 40px 0;
+        
+    }
+    .cart-list .btn-delete {
+        font-size: 12px;
+    }
+    .cart-list .btn-up {
+        padding: 1px 6px;
+    }
+    .cart-list .btn-down {
+        padding: 1px 6px;
+    }
+    
+}
+@media screen and (min-width:720px) and (max-width:959px) {
+    .content {
+        margin-top: 100px;
+    }
+    .cart-list .title {
+        padding: 50px 0;
+        font-size: 16px;
+    }
+    .cart-list .pricee {
+        padding: 40px 0;
+    }
+    
+    .cart-list .prices {
+        padding: 40px 0;
+    }
+    .cart-list .delete {
+        padding: 40px 10px 40px 0;
+        
+    }
+}
+@media screen and (min-width:960px ) {
+    .content {
+        margin-top: 100px;
+        
+    }
+    .cart-list .pricee {
+        padding: 60px 0;
+    }
+    .cart-list .title {
+        padding: 60px 0;
+    }
+    .cart-list .prices {
+        padding: 60px 0;
+    }
+    .cart-list .delete {
+        padding: 60px 0;
+    }
+    
+}
+.bi-ticket-fill {
+    color: red;
+    padding-right: 10px;
+}
+.chose-voucher a {
+    text-decoration: none;
+}
+.voucher {
+    padding: 0 30px 20px 30px;
+    border-bottom: 1px solid #727272;
+}
+.buy {
+    background: #EE4D2D;
+    border: 1px solid #EE4D2D;
+    color: #fff;
+    width: 100px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}

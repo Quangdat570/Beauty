@@ -19,6 +19,7 @@ export default defineConfig({
                 service: resolve(__dirname, "src/service.html"),
                 signup: resolve(__dirname, "src/signup.html"),
                 sign: resolve(__dirname, "src/sign.html"),
+                checkout: resolve(__dirname, "src/checkout.html"),
             },
         },
     },

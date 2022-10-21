@@ -2,10 +2,7 @@
 
 
 @media screen and (max-width:374px) {
-    .path {
-        bottom: 20%;
-        left: 25%;
-    }
+    
     .path .header-path  {
         font-size: 14px;
     }
@@ -56,10 +53,7 @@
 }
 
 @media screen and (min-width:375px) and (max-width:430px) {
-    .path {
-        bottom: 20%;
-        left: 28%;
-    }
+    
     .path .header-path  {
         font-size: 16px;
     }
@@ -220,10 +214,7 @@
     
 
 @media screen and (min-width:431px) and (max-width:576px) {
-    .path {
-        bottom: 20%;
-        left: 33%;
-    }
+    
     .path .header-path  {
         font-size: 20px;
     }
@@ -379,10 +370,7 @@
 }
 
 @media screen and (min-width:577px) and (max-width:843px) {
-    .path {
-        bottom: 25%;
-        left: 33%;
-    }
+   
     .path .header-path  {
         font-size: 26px;
     }
@@ -543,10 +531,7 @@
 }
 
 @media screen and (min-width:844px) {
-    .path {
-        bottom: 30%;
-        left: 38%;
-    }
+    
     .path .header-path  {
         font-size: 32px;
     }
@@ -700,10 +685,7 @@
 }
 
 @media screen and (min-width:1080px) and (max-width:1440px) {
-    .path {
-        bottom: 30%;
-        left: 40%;
-    }
+    
     .path .header-path  {
         font-size: 32px;
     }
@@ -847,16 +829,10 @@
    
 }
 @media screen and (min-width:1440px) and (max-width:1919px) {
-    .path {
-        top: 50%;
-        left: 41%;
-    }
+   
 }
 @media screen and ( min-width:1920px) {
-    .path {
-        top: 50%;
-        left: 43%;
-    }
+   
 }
 
 
@@ -870,6 +846,9 @@
     color: #fff;
     text-align: center;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     
     
 }

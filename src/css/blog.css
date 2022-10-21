@@ -1,10 +1,7 @@
 /* reponsive */
 
 @media screen and (min-width:375px) and (max-width:430px) {
-    .path {
-        bottom: 20%;
-        left: 30%;
-    }
+    
     .path .header-path  {
         font-size: 12px;
     }
@@ -16,10 +13,7 @@
     
 }
 @media screen and (min-width:431px) and (max-width:576px) {
-    .path {
-        bottom: 28%;
-        left: 35%;
-    }
+    
     .path .header-path  {
         font-size: 12px;
     }
@@ -29,10 +23,7 @@
 }
 
 @media screen and (min-width:577px) and (max-width:834px) {
-    .path {
-        bottom: 32%;
-        left: 37%;
-    }
+    
     .path .header-path  {
         font-size: 16px;
     }
@@ -41,10 +32,7 @@
     }
 }
 @media screen and ( min-width:835px) and (max-width:1080px) {
-    .path {
-        bottom: 32%;
-        left: 39%;
-    }
+   
     .path .header-path  {
         font-size: 32px;
     }
@@ -55,10 +43,7 @@
 }
 
 @media screen and ( min-width:1080px) and (max-width:1439px) {
-    .path {
-        bottom: 32%;
-        left: 40%;
-    }
+    
     .path .header-path  {
         font-size: 32px;
     }
@@ -68,16 +53,10 @@
 
 }
 @media screen and (min-width:1440px) and (max-width:1919px) {
-    .path {
-        top: 50%;
-        left: 41%;
-    }
+  
 }
 @media screen and ( min-width:1920px) {
-    .path {
-        top: 50%;
-        left: 44%;
-    }
+    
     .path .header-path  {
         font-size: 32px;
     }
@@ -100,6 +79,9 @@
     color: #fff;
     text-align: center;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     
 }
 
