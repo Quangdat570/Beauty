@@ -1,5 +1,5 @@
 @media screen and (min-width:375px) and (max-width:540px) {
-    .content {
+    .contentt {
         margin-top: 80px;
     }
     .form {
@@ -27,7 +27,7 @@
     }
 }
 @media screen and (min-width:541px) and (max-width:720px) {
-    .content {
+    .contentt {
         margin-top: 100px;
     }
     .form {
@@ -45,7 +45,7 @@
 }
 
 @media screen and (min-width:721px) and (max-width:960px) {
-    .content {
+    .contentt {
         margin-top: 150px;
     }
     .form {
@@ -62,7 +62,7 @@
 }
 
 @media screen and (min-width:961px) and (max-width:1140px) {
-    .content {
+    .contentt {
         margin-top: 150px;
     }
     .form {
@@ -79,7 +79,7 @@
 }
 
 @media screen and (min-width:1141px) {
-    .content {
+    .contentt {
         margin-top: 150px;
     }
     .form {
@@ -106,7 +106,7 @@
     }
 }
 
-.content {
+.contentt {
     justify-content: space-between;
     margin-bottom: 50px;
 }
