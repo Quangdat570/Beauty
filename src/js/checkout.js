@@ -8,6 +8,17 @@ import "../js/db.js";
 import { products } from "./db";
 import "../css/checkout.css";
 
+const btnClose = document.querySelector(".bi-x");
+const cartShow = document.querySelector(".bi-cart-fill");
+
+cartShow.addEventListener("click", function () {
+  document.querySelector(".plus-cart").style.right = "0";
+});
+
+btnClose.addEventListener("click", function () {
+  document.querySelector(".plus-cart").style.right = "-500px";
+});
+
 let cartt = JSON.parse(localStorage.getItem("product-info")) || [];
 const deleteItem = (event) => {
   if (confirm("Chắc chắn xóa không?")) {

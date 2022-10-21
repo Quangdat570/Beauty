@@ -251,6 +251,13 @@
         flex-direction: column;
         
     }
+    .list-product-selling .title-selling {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .list-product-selling .price {
+        font-size: 14px;
+    }
    
     
     .selling-product .list {
