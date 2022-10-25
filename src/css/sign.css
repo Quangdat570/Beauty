@@ -161,6 +161,8 @@
     width: 400px;
     padding: 30px 40px;
     border: 1px solid #f0f0f0;
+    background: rgb(236, 200, 191);
+    border-radius: 1px solid rgb(236, 200, 191);
     
 
 }
@@ -170,6 +172,7 @@
     position: relative;
     border: none;
     height: 110px;
+    background: rgb(236, 200, 191);
     
 }
 

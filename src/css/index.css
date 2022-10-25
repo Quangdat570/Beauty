@@ -321,7 +321,7 @@
         display: none;
     } */
     .icon {
-        gap: 10px;
+        /* gap: 10px; */
         align-items: baseline;
     }
     .icon a {
@@ -538,9 +538,9 @@
     /* .bi-list {
         display: none;
     } */
-    .icon {
+    /* .icon {
         gap: 10px;
-    }
+    } */
     .icon a {
         font-size: 20px;
     }
@@ -740,9 +740,9 @@
     /* .bi-list {
         display: none;
     } */
-    .icon {
+    /* .icon {
         gap: 10px;
-    }
+    } */
     .navbar {
         display: none;
     }
@@ -912,9 +912,9 @@
     /* .bi-list {
         display: none;
     } */
-    .icon {
+    /* .icon {
         gap: 10px;
-    }
+    } */
     .icon a {
         font-size: 20px;
     }
@@ -1080,7 +1080,7 @@
     padding: 0 20px;
 }
 .container {
-    max-width: 1200px;
+    
    
     
 }
@@ -1095,7 +1095,7 @@
 }
 .header {
     position: relative;
-    background: rgba(240, 190, 178, 0.9);
+    background: rgba(240, 190, 178);
     max-width: 100%;
     z-index: 1000;
 }
@@ -1124,7 +1124,7 @@
     font-size: 18px;
     flex-wrap: nowrap;
     /* align-items: center; */
-    justify-content: center;
+    justify-content: space-evenly;
     
     padding-right: 40px;
 }
@@ -1235,6 +1235,10 @@
 }
 .product-info img {
     width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    
 }
 
 .product-info .title-product {
@@ -1421,6 +1425,12 @@
 
 .review-blog img {
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.border {
+    border-radius: 10px;
 }
 .title-review {
     font-family: 'Josefin Sans', sans-serif;
@@ -1851,4 +1861,81 @@ table .prices {
 }
 .icon-media .bi-twitter {
     color: rgb(29, 155, 240);
+}
+#notifys {
+    position: fixed;
+    top: 90px;
+    right: 10px;
+}
+#notifys {
+    position: fixed;
+    
+}
+.notify {
+    background-color: rgb(0, 128, 0);
+    padding: 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    border-left: 6px solid rgb(0, 128, 0);
+    overflow: hidden;
+    animation: slide_show 2s ease forwards;
+    margin-bottom: 10px;
+    
+}
+
+.animate {
+    background-color: rgb(199, 85, 9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    animation:  countdown 3s ease forwards;
+}
+@keyframes countdown {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes slide_show {
+    0% {
+        transform: translateX(100%);
+    }
+    25% {
+        transform: translateX(-10%);
+    }
+
+    50% {
+        transform: translateX(0%);
+
+    }
+
+    100% {
+        transform: translateX(-10%);
+
+    }
+}
+@keyframes slide_hide {
+    0% {
+        transform: translateX(-10%);
+    }
+    25% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(-10%);
+
+    }
+
+    100% {
+        transform: translateX(200%);
+
+    }
 }

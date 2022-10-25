@@ -58,8 +58,26 @@ bag.forEach(function (a, index) {
     var cartImg = father.querySelector("img").src;
     var cartName = father.querySelector(".title-product").innerText;
     var cartPrice = father.querySelector(".price").innerText;
-    alert("Đã thêm sản phẩm vào giỏ hàng");
-    addcart(cartImg, cartName, cartPrice);
+    function createToast() {
+      var toast = document.createElement('div');
+      toast.classList.add('notify');
+      toast.innerHTML = `
+      <i class="bi bi-check-circle-fill"></i>
+      <span>Đã thêm vào giỏ hàng</span>
+      <span class="animate"></span>`;
+      var toastList = document.getElementById('notifys');
+      toastList.appendChild(toast);
+
+      setTimeout(function() {
+        toast.style.animation = 'slide_hide 2s ease forwards';
+      },4000);
+
+      setTimeout(function() {
+        toast.remove()
+
+      },6000);
+    };
+    addcart(cartImg, cartName, cartPrice,createToast());
   });
 });
 

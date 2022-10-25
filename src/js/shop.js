@@ -128,7 +128,7 @@ bag.forEach(function(a,index) {
       toast.classList.add('notify');
       toast.innerHTML = `
       <i class="bi bi-check-circle-fill"></i>
-      <span>Sản phẩm đã được thêm vào giỏ hàng</span>
+      <span>Đã thêm vào giỏ hàng</span>
       <span class="animate"></span>`;
       var toastList = document.getElementById('notifys');
       toastList.appendChild(toast);

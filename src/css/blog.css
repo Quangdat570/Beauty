@@ -98,3 +98,15 @@
     
     font-weight: 600;
 }
+.review-blog img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.review-blog .border {
+    border-radius: 15px;
+    /* animation: border 2s ease; */
+}
+
+.more a:hover {
+    border-bottom: 1px solid red;
+}
