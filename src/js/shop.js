@@ -26,7 +26,7 @@ $(".list").append(products.map((p) => {
           <a class="btn-cart"><i class="bi bi-bag"></i></a>
           <a href="#"><i class="bi bi-heart"></i></a>
           <a href="#" class="share"><i class="bi bi-share"></i></a>
-          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+          <a class="btn btn-primary d-none d-lg-block" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
             
             <i class="bi bi-eye"></i>
           </a>
@@ -123,8 +123,26 @@ bag.forEach(function(a,index) {
     var cartImg = father.querySelector('img').src;
     var cartName = father.querySelector('.title-product').innerText;
     var cartPrice = father.querySelector('.price').innerText;
-    alert('Sản phẩm đã được thêm vào giỏ hàng');
-    addcart(cartImg,cartName,cartPrice);
+    function createToast() {
+      var toast = document.createElement('div');
+      toast.classList.add('notify');
+      toast.innerHTML = `
+      <i class="bi bi-check-circle-fill"></i>
+      <span>Sản phẩm đã được thêm vào giỏ hàng</span>
+      <span class="animate"></span>`;
+      var toastList = document.getElementById('notifys');
+      toastList.appendChild(toast);
+
+      setTimeout(function() {
+        toast.style.animation = 'slide_hide 2s ease forwards';
+      },4000);
+
+      setTimeout(function() {
+        toast.remove()
+
+      },6000);
+    };
+    addcart(cartImg,cartName,cartPrice,createToast());
 
     
   })
@@ -276,3 +294,5 @@ pageFirst.addEventListener('click',function() {
   page1.classList.remove('a');
   page2.classList.remove('b');
 })
+
+// notify

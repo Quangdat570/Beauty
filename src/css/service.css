@@ -174,3 +174,7 @@
     color: #fff;
     letter-spacing: 2px;
 }
+.group li a.hight-light {
+    color: #E81D1D;
+    border-bottom: 2px solid #E81D1D;
+}

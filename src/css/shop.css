@@ -26,6 +26,17 @@
     .logo img {
         width: 100%;
     }
+    #notifys {
+        position: fixed;
+        top: 60px;
+        right: 5px;
+    }
+    .notify i {
+        margin: 0 0px;
+    }
+    .mrt-40 {
+        margin-top: 0;
+    }
 }
 
 @media screen and ( min-width:431px) and (max-width:576px) {
@@ -41,6 +52,17 @@
     .path {
         font-size: 18px;
         
+    }
+    #notifys {
+        position: fixed;
+        top: 90px;
+        right: 10px;
+    }
+    .notify i {
+        margin: 0 10px;
+    }
+    .mrt-40 {
+        margin-top: 40px;
     }
 }
 
@@ -65,6 +87,17 @@
         font-size: 22px;
         
     }
+    #notifys {
+        position: fixed;
+        top: 90px;
+        right: 10px;
+    }
+    .notify i {
+        margin: 0 10px;
+    }
+    .mrt-40 {
+        margin-top: 40px;
+    }
     
 }
 
@@ -81,6 +114,17 @@
     .path {
         font-size: 26px;
         
+    }
+    #notifys {
+        position: fixed;
+        top: 90px;
+        right: 10px;
+    }
+    .notify i {
+        margin: 0 10px;
+    }
+    .mrt-40 {
+        margin-top: 40px;
     }
     
 }
@@ -99,6 +143,17 @@
     .path {
         font-size: 32px;
         
+    }
+    #notifys {
+        position: fixed;
+        top: 90px;
+        right: 10px;
+    }
+    .notify i {
+        margin: 0 10px;
+    }
+    .mrt-40 {
+        margin-top: 40px;
     }
 }
 @media screen and (min-width:1140px) {
@@ -125,6 +180,17 @@
     }
     .list-product {
         gap: 20px;
+    }
+    #notifys {
+        position: fixed;
+        top: 90px;
+        right: 10px;
+    }
+    .notify i {
+        margin: 0 10px;
+    }
+    .mrt-40 {
+        margin-top: 40px;
     }
 
 }
@@ -154,6 +220,17 @@
     .list-product {
         gap: 20px;
     }
+    #notifys {
+        position: fixed;
+        top: 90px;
+        right: 10px;
+    }
+    .notify i {
+        margin: 0 10px;
+    }
+    .mrt-40 {
+        margin-top: 40px;
+    }
 }
 @media screen and (min-width:1441px) and (max-width:1920px) {
     .header .logo img {
@@ -180,6 +257,17 @@
     .list-product {
         gap: 20px;
     }
+    #notifys {
+        position: fixed;
+        top: 90px;
+        right: 10px;
+    }
+    .notify i {
+        margin: 0 10px;
+    }
+    .mrt-40 {
+        margin-top: 40px;
+    }
 }
 
 /*  header */
@@ -187,10 +275,14 @@
 
 .header {
     position: relative;
-    background: rgba(240, 190, 178, 0.9);
+    background: rgba(240, 190, 178);
     max-width: 100%;
     z-index: 1000;
     
+}
+.group li a.hight-light {
+    color: #E81D1D;
+    border-bottom: 2px solid #E81D1D;
 }
 
 .group a:hover {
@@ -626,4 +718,76 @@ margin-top: 30px;
 }
 .buy:hover {
     color: #ddd;
+}
+#notifys {
+    position: fixed;
+    
+}
+.notify {
+    background-color: rgb(0, 128, 0);
+    padding: 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    border-left: 6px solid rgb(0, 128, 0);
+    overflow: hidden;
+    animation: slide_show 2s ease forwards;
+    margin-bottom: 10px;
+    
+}
+
+.animate {
+    background-color: rgb(199, 85, 9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    animation:  countdown 3s ease forwards;
+}
+@keyframes countdown {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes slide_show {
+    0% {
+        transform: translateX(100%);
+    }
+    25% {
+        transform: translateX(-10%);
+    }
+
+    50% {
+        transform: translateX(0%);
+
+    }
+
+    100% {
+        transform: translateX(-10%);
+
+    }
+}
+@keyframes slide_hide {
+    0% {
+        transform: translateX(-10%);
+    }
+    25% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(-10%);
+
+    }
+
+    100% {
+        transform: translateX(200%);
+
+    }
 }
