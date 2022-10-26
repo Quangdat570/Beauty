@@ -37,6 +37,9 @@
     .mrt-40 {
         margin-top: 0;
     }
+    .plus-cart {
+        width: 100%;
+    }
 }
 
 @media screen and ( min-width:431px) and (max-width:576px) {
@@ -63,6 +66,9 @@
     }
     .mrt-40 {
         margin-top: 40px;
+    }
+    .plus-cart {
+        width: 100%;
     }
 }
 
@@ -98,6 +104,9 @@
     .mrt-40 {
         margin-top: 40px;
     }
+    .plus-cart {
+        width: 400px;
+    }
     
 }
 
@@ -125,6 +134,9 @@
     }
     .mrt-40 {
         margin-top: 40px;
+    }
+    .plus-cart {
+        width: 400px;
     }
     
 }
@@ -154,6 +166,9 @@
     }
     .mrt-40 {
         margin-top: 40px;
+    }
+    .plus-cart {
+        width: 40%;
     }
 }
 @media screen and (min-width:1140px) {
@@ -191,6 +206,9 @@
     }
     .mrt-40 {
         margin-top: 40px;
+    }
+    .plus-cart {
+        width: 40%;
     }
 
 }
@@ -231,6 +249,9 @@
     .mrt-40 {
         margin-top: 40px;
     }
+    .plus-cart {
+        width: 40%;
+    }
 }
 @media screen and (min-width:1441px) and (max-width:1920px) {
     .header .logo img {
@@ -267,6 +288,9 @@
     }
     .mrt-40 {
         margin-top: 40px;
+    }
+    .plus-cart {
+        width: 40%;
     }
 }
 
@@ -555,7 +579,7 @@
     width: 100px;
 }
 .plus-cart {
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
     padding-top: 30px;
     text-align: center;
@@ -589,13 +613,13 @@
 .plus-cart {
     position: fixed;
     height: 100vh;
-    width: 400px;
+    /* width: 400px; */
     right: 0;
     top: 0;
     background-color: #ebac8b;
     padding: 12px 20px;
     overflow-y: scroll;
-    right: -500px;
+    right: -600px;
     transition: all 0.5s ease-in-out;
     z-index: 1000;
 }
