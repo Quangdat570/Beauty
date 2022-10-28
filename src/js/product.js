@@ -2,6 +2,8 @@ import "../css/global.css";
 import $ from "jquery";
 import _ from "lodash";
 import { products } from "./db";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "bootstrap/dist/js/bootstrap.min.js";
 import "../css/product.css";
 
 
@@ -54,5 +56,14 @@ $(function () {
 });
 
 
+const btnClose = document.querySelector('.bi-x');
+const cartShow = document.querySelector('.bi-cart-fill');
 
+cartShow.addEventListener('click',function() {
+  document.querySelector('.plus-cart').style.right = "0";
+})
+
+btnClose.addEventListener('click',function() {
+  document.querySelector('.plus-cart').style.right = "-100%";
+})
 
