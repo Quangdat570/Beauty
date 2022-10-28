@@ -19,18 +19,18 @@ $(function () {
                         <img src="${ product.thumbnail }" alt="" class="img-products">
                     </div>
                     <div class="col-7 list-detail">
-                        <div class="title">${ product.title }</div>
-                        <div class="price">Price : $${ product.price }</div>
-                        <div class="size">${ product.propeti}</div>
-                        <div class="type">Type : ${ product.typee}</div>
-                        <div class="quantily d-flex">
+                        <div class="titlez">${ product.title }</div>
+                        <div class="pricez">Price : $${ product.price }</div>
+                        <div class="sizez">${ product.propeti}</div>
+                        <div class="typez">Type : ${ product.typee}</div>
+                        <div class="quantilyy d-flex">
                             <div class="text-quantily">Quantity:</div>
                             <div class="count-product">
-                                <a href="#" class="dash">
+                                <a href="#" class="dashh">
                                     <i class="bi bi-dash"></i>
                                 </a>
                                 1
-                                <a href="#" class="plus">
+                                <a href="#" class="pluss">
                                     <i class="bi bi-plus"></i>
                                     
                                 </a>
@@ -39,10 +39,10 @@ $(function () {
                         </div>
     
                         <div class="add-product d-flex">
-                            <div class="add-cart">
+                            <div class="add-cartt">
                                 <a href="#">Add to cart</a>
                             </div>
-                            <div class="add-wishlist">
+                            <div class="add-wishlistt">
                                 <a href="#">Add to wishlist</a>
                             </div>
                         </div>

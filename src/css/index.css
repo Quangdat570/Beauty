@@ -1080,11 +1080,7 @@
 .p-20 {
     padding: 0 20px;
 }
-.container {
-    
-   
-    
-}
+
 .t-center {
     text-align: center;
 }
@@ -1613,7 +1609,7 @@ text-align: center;
     gap: 30px;
     align-items: center;
 }
-.count-product {
+.count-productt {
     
     display: flex;
     justify-content: space-between;
@@ -1706,7 +1702,7 @@ text-align: center;
     
 }
 
-.count-product {
+.count-productt {
     width: 90px;
 }
 .dash {
