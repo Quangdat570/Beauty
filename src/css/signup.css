@@ -22,7 +22,7 @@
     padding: 20px 40px ;
     width: 400px;
     border: 1px solid #f0f0f0;
-    background: rgb(236, 200, 191);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .form-control {
     /* margin-bottom: 10px; */
@@ -30,7 +30,7 @@
     position: relative;
     border: none;
     height: 100px;
-    background: rgb(236, 200, 191);
+    /* background: rgb(236, 200, 191); */
     
 }
 
