@@ -5,6 +5,8 @@ export const products = [
       title: "Amet Lipstick",
       price:40,
       type:"son",
+      propeti:"Amet Lipstick is a water-moisturizing lotion that absorbs quickly to create a cool and non-greasy feeling.",
+      typee:"Lipstick"
     },
     {
       id:2,
@@ -12,6 +14,10 @@ export const products = [
       title: "Aps Lipstick",
       price:54,
       type:"son",
+      propeti:"Aps Lipstick is a water-moisturizing lotion that absorbs quickly to create a cool and non-greasy feeling.",
+      typee:"Lipstick",
+
+
     },
     {
       id:3,
@@ -19,6 +25,10 @@ export const products = [
       title: "BB Setting Spray",
       price:28,
       type:"skincare",
+      propeti:"Moisturize the skin by sucking moisture from the environment into the skin and moisturizing it in the skin",
+      typee:"Scrub"
+
+
     },
     {
       id:4,
@@ -26,6 +36,10 @@ export const products = [
       title: "Beu Concealer",
       price:65,
       type:"skincare",
+      propeti:"Hydrophilic moisturizer - effectively moisturizes and helps regenerate the stratum corneum.",
+      typee:"Scrub"
+
+
     },
     {
       id:5,
@@ -33,6 +47,10 @@ export const products = [
       title: "Blossom Conditioner",
       price:56,
       type:"dau goi",
+      propeti:"Eliminates dandruff,Prevent dandruff from returning.",
+      typee:"Shampoo"
+
+
     },
     {
       id:6,
@@ -40,6 +58,10 @@ export const products = [
       title: "BB Setting Spray",
       price:66,
       type:"dau goi",
+      propeti:"Setting Spray Smooth Shampoo helps to deeply cleanse the hair, removing impurities, dirt and sebum.",
+      typee:"Shampoo"
+
+
     },
     {
       id:7,
@@ -47,6 +69,10 @@ export const products = [
       title: "Dio Eyeliner",
       price:40,
       type:"makeup",
+      propeti:"Contains nutrient-rich ingredients that can easily blend into eyelashes, beautify and be safe for the eyes.",
+      typee:"Mascara"
+
+
     },
     {
       id:8,
@@ -54,6 +80,10 @@ export const products = [
       title: "Dio Mascara",
       price:79,
       type:"makeup",
+      propeti:"The powder head is spread with micro-sized, ultra-fine chalk powder to create a natural color effect, plump eyebrows.",
+      typee:"Mascara"
+
+
     },
     {
       id:9,
@@ -61,6 +91,10 @@ export const products = [
       title: "Dio Nourishing Skin Cream",
       price:66,
       type:"duong toc",
+      propeti:"Polymers bonding helps increase thickness and give puffiness to hair, making hair look more flowing in an instant.",
+      typee:"Hair care"
+
+
     },
     {
       id:10,
@@ -68,6 +102,10 @@ export const products = [
       title: "Dio Skin Radiance",
       price:40,
       type:"kem duong",
+      propeti:"Dio Skin Radiance is a lotion that increases the resistance and tolerability of biologically sensitive and irritable skin.",
+      typee:"Faclal Cream"
+
+
     },
     {
       id:11,
@@ -75,6 +113,10 @@ export const products = [
       title: "Dio Wrinkle Lift ",
       price:190,
       type:"duong am",
+      propeti:"Translucent darkening,Tightening pores",
+      typee:"Lotion"
+
+
     },
     {
       id:12,
@@ -82,5 +124,9 @@ export const products = [
       title: "Eva Spray",
       price:170,
       type:"duong toc",
+      propeti:"Eva Spray heat protection spray with 5 great uses in the same product set: hair in folds, shiny, soft, fiber-reducing, and untangling.",
+      typee:"Hair care"
+
+
     },
   ]
