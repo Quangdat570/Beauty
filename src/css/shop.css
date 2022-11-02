@@ -460,7 +460,7 @@
     background-color: #333;
     justify-content: space-around;
     align-items: center;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 .cart a {
     color: #fff;
@@ -814,4 +814,9 @@ margin-top: 30px;
         transform: translateX(200%);
 
     }
+}
+.cart.btn-carttt {
+    background-color: #333;
+    border: none;
+    padding: 0;
 }

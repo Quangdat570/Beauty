@@ -18,25 +18,29 @@ import { products } from "./db";
 $(".list").append(products.map((p) => {
   
   const dom = $(`
-  <a href="product.html?id=${ p.id }">
+  
         <li class="grid-products  col-6 col-lg-4" data-colour="${p.type}">
           <div class="product-info  " >
             <div  class="img-product">
-              <img src="${ p.thumbnail}" alt="">
+            <a href="product.html?id=${ p.id }">
+            <img src="${ p.thumbnail}" alt="">
+
+            </a>
               <div class="cart d-flex">
                 <a class="btn-cart"><i class="bi bi-bag"></i></a>
                 <a href="#"><i class="bi bi-heart"></i></a>
-                <a href="#" class="share"><i class="bi bi-share"></i></a>
-                <a class="btn btn-primary d-none d-lg-block" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
+                
+                <a class=" btn-carttt d-none d-lg-block " data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="cart">
                   
                   <i class="bi bi-eye"></i>
                 </a>
-                </div>
+              </div>
             </div>
               <div class="title-product">${p.title}</div>
               <div class="price">$${p.price}.00</div>
+          </div>
         </li>
-      </a>`);
+  `);
   dom.find(".btn-cart").on("click", () => {
     const addCart = JSON.parse(localStorage.getItem("product-info")) || [];
     // const item = addCart.find((i) => i.Product.id === p.id);
